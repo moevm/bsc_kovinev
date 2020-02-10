@@ -17,6 +17,18 @@ RESTORATION WORKS](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.n
 02.12.2019
 
 * [Photogrammetry and optical methods in structural dynamics – A review](https://www.researchgate.net/profile/Javad_Baqersad/publication/295398138_Photogrammetry_and_optical_methods_in_structural_dynamics_-_A_review/links/57bb6f1c08ae51eef1f3d236/Photogrammetry-and-optical-methods-in-structural-dynamics-A-review.pdf?origin=publication_detail)
-* [COMPARISON METHODS OF TERRESTRIAL LASER SCANNING,
-PHOTOGRAMMETRY AND TACHEOMETRY DATA FOR RECORDING
-OF CULTURAL HERITAGE BUILDINGS](https://www.isprs.org/proceedings/XXXVII/congress/5_pdf/38.pdf)
+* [COMPARISON METHODS OF TERRESTRIAL LASER SCANNING, PHOTOGRAMMETRY AND TACHEOMETRY DATA FOR RECORDING OF CULTURAL HERITAGE BUILDINGS](https://www.isprs.org/proceedings/XXXVII/congress/5_pdf/38.pdf)
+
+
+11.02.2020
+* [Laser Scanning: Theory and Applications](https://books.google.ru/books?id=IuaODwAAQBAJ&pg=PA474&lpg=PA474&dq=tls+architectural+photogrammetry&source=bl&ots=s9kWvCsROx&sig=ACfU3U1PIGgCLA2MRu0kJwLEoNSAvDi5ng&hl=ru&sa=X&ved=2ahUKEwiKoK2hh7PnAhXRk4sKHZ6XDsAQ6AEwEHoECAsQAQ#v=onepage&q=tls%20architectural%20photogrammetry&f=false)
+* [Recording approach of heritage sites based on merging point clouds from high resolution photogrammetry and Terrestrial Laser Scanning](https://www.researchgate.net/publication/273686018_Recording_approach_of_heritage_sites_based_on_merging_point_clouds_from_high_resolution_photogrammetry_and_Terrestrial_Laser_Scanning)
+* [TERRESTRIAL PHOTOGRAMMETRY APPLIED TO ARCHITECTURAL RESTORATION AND
+ARCHAEOLOGICAL SURVEYS](https://www.isprs.org/proceedings/XXXIII/congress/part5/401_XXXIII-part5.pdf)
+* SIMPLE COMPARISON: [link](https://kb.unavco.org/kb/file.php?id=810)
+* [ARCHITECTURAL PHOTOGRAMMETRY:
+Basic theory, Procedures, Tools ](https://www.isprs.org/commission5/tutorial02/gruss/tut_gruss.pdf)
+* [EVALUATIONS OF THREE-DIMENSIONAL BUILDING MODEL RECONSTRUCTION
+FROM LIDAR POINT CLOUDS AND SINGLE-VIEW PERSPECTIVE IMAGERY](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/597/2014/isprsarchives-XL-5-597-2014.pdf)
+* [‘Structure-from-Motion’ photogrammetry: A low-cost, effective tool for geoscience applications](https://www.researchgate.net/publication/256843452_'Structure-from-Motion'_photogrammetry_A_low-cost_effective_tool_for_geoscience_applications)
+* [ТРЁХМЕРНАЯ РЕКОНСТРУКЦИЯ СЦЕНЫ ПО НЕСКОЛЬКИМ ИЗОБРАЖЕНИЯМ](https://cyberleninka.ru/article/n/tryohmernaya-rekonstruktsiya-stseny-po-neskolkim-izobrazheniyam/viewer)
