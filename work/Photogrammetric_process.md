@@ -54,11 +54,9 @@
 Параметры внешнего ориентирования рассчитываются косвенно на основе координат выделенных ярко выраженных
 точек (features) на изображении и известными глобальными координатами.
 
-Every measured image point corresponds to a spatial direction from projection centre to object point. The length of the direction vector is initially unknown i.e. every object point lying on the line of this vector generates the same image point. In other words, although every three
-dimensional object point transforms to a unique image point for given orientation parameters, a unique reversal of the projection is not possible. The object point can be located on the image
-ray, and thereby absolutely determined in object space, only by intersecting the ray with an additional known geometric element such as a second spatial direction or an object plane.
-Every image generates a spatial bundle of rays, defined by the imaged points and the perspective centre, in which the rays were all recorded at the same point in time. If all the bundles of rays from multiple images are intersected as described above, a dense network is
-created; for an appropriate imaging configuration, such a network has the potential for high geometric strength. Using the method of bundle triangulation any number of images (ray bundles) can be simultaneously oriented, together with the calculation of the associated three dimensional object point locations 
+// TODO by Google Translate
+Каждая измеренная точка изображения соответствует пространственному направлению от центра проекции к точке объекта. Длина вектора направления изначально неизвестна, то есть каждая точка объекта, лежащая на линии этого вектора, генерирует одну и ту же точку изображения. Другими словами, хотя каждая точка трехмерного объекта преобразуется в уникальную точку изображения для заданных параметров ориентации, однозначное изменение проекции невозможно. Точка объекта может быть расположена на луче изображения и, таким образом, абсолютно определена в пространстве объекта, только путем пересечения луча с дополнительным известным геометрическим элементом, таким как второе пространственное направление или плоскость объекта. Каждое изображение генерирует пространственный пучок лучей, определенный точками изображения и центром перспективы, в котором все лучи были записаны в один и тот же момент времени. Если все пучки лучей из нескольких изображений пересекаются, как описано выше, создается плотная сеть; для соответствующей конфигурации формирования изображения такая сеть обладает потенциалом высокой геометрической прочности. Используя метод триангуляции пучков, можно одновременно ориентировать любое количество изображений (пучков лучей) вместе с вычислением местоположений точек соответствующих трехмерных объектов.
+
 
 
 * Система 
