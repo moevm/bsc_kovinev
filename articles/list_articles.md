@@ -32,3 +32,8 @@ Basic theory, Procedures, Tools ](https://www.isprs.org/commission5/tutorial02/g
 FROM LIDAR POINT CLOUDS AND SINGLE-VIEW PERSPECTIVE IMAGERY](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/597/2014/isprsarchives-XL-5-597-2014.pdf)
 * [‘Structure-from-Motion’ photogrammetry: A low-cost, effective tool for geoscience applications](https://www.researchgate.net/publication/256843452_'Structure-from-Motion'_photogrammetry_A_low-cost_effective_tool_for_geoscience_applications)
 * [ТРЁХМЕРНАЯ РЕКОНСТРУКЦИЯ СЦЕНЫ ПО НЕСКОЛЬКИМ ИЗОБРАЖЕНИЯМ](https://cyberleninka.ru/article/n/tryohmernaya-rekonstruktsiya-stseny-po-neskolkim-izobrazheniyam/viewer)
+
+
+16.03.2020
+* Metrics - [A comparison of perceptually-based metrics for
+objective evaluation of geometry processing](http://vcg.isti.cnr.it/Publications/2010/LC10/Lavoue-Corsini-preprint.pdf)
