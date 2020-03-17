@@ -11,11 +11,23 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(400, 300)
+        Dialog.resize(400, 301)
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(Dialog)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
+        self.verticalLayout_5 = QtWidgets.QVBoxLayout()
+        self.verticalLayout_5.setObjectName("verticalLayout_5")
+        self.label_select_software = QtWidgets.QLabel(Dialog)
+        self.label_select_software.setObjectName("label_select_software")
+        self.verticalLayout_5.addWidget(self.label_select_software)
+        self.comboBox_select_default = QtWidgets.QComboBox(Dialog)
+        self.comboBox_select_default.setObjectName("comboBox_select_default")
+        self.verticalLayout_5.addWidget(self.comboBox_select_default)
+        self.verticalLayout.addLayout(self.verticalLayout_5)
+        self.label_2 = QtWidgets.QLabel(Dialog)
+        self.label_2.setObjectName("label_2")
+        self.verticalLayout.addWidget(self.label_2)
         self.verticalLayout_2 = QtWidgets.QVBoxLayout()
         self.verticalLayout_2.setObjectName("verticalLayout_2")
         self.label_software_name = QtWidgets.QLabel(Dialog)
@@ -56,6 +68,8 @@ class Ui_Dialog(object):
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
         Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
+        self.label_select_software.setText(_translate("Dialog", "Select default software:"))
+        self.label_2.setText(_translate("Dialog", "<html><head/><body><p align=\"center\">OR</p></body></html>"))
         self.label_software_name.setText(_translate("Dialog", "Enter software name:"))
         self.edit_software_nae.setPlaceholderText(_translate("Dialog", "Meshroom"))
         self.label_software_run_command.setText(_translate("Dialog", "Enter run command:"))
