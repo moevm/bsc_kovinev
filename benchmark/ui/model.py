@@ -2,16 +2,18 @@
 
 # Form implementation generated from reading ui file '../ui_raw/model.ui'
 #
-# Created by: PyQt5 UI code generator 5.10.1
+# Created by: PyQt5 UI code generator 5.14.1
 #
 # WARNING! All changes made in this file will be lost!
 
+
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(395, 390)
+        Form.resize(526, 539)
         self.verticalLayout_7 = QtWidgets.QVBoxLayout(Form)
         self.verticalLayout_7.setObjectName("verticalLayout_7")
         self.verticalLayout_6 = QtWidgets.QVBoxLayout()
@@ -71,15 +73,14 @@ class Ui_Form(object):
         self.slider_rotate_z.setObjectName("slider_rotate_z")
         self.verticalLayout_3.addWidget(self.slider_rotate_z)
         self.verticalLayout_2.addLayout(self.verticalLayout_3)
+        self.label_model_info = QtWidgets.QLabel(Form)
+        self.label_model_info.setObjectName("label_model_info")
+        self.verticalLayout_2.addWidget(self.label_model_info)
         spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
         self.verticalLayout_2.addItem(spacerItem1)
         self.horizontalLayout.addLayout(self.verticalLayout_2)
         self.verticalLayout = QtWidgets.QVBoxLayout()
         self.verticalLayout.setObjectName("verticalLayout")
-        self.widget_model = QtWidgets.QWidget(Form)
-        self.widget_model.setMinimumSize(QtCore.QSize(300, 300))
-        self.widget_model.setObjectName("widget_model")
-        self.verticalLayout.addWidget(self.widget_model)
         self.horizontalLayout.addLayout(self.verticalLayout)
         self.verticalLayout_6.addLayout(self.horizontalLayout)
         self.verticalLayout_7.addLayout(self.verticalLayout_6)
@@ -106,5 +107,5 @@ class Ui_Form(object):
         self.label_rotate_x.setText(_translate("Form", "Rotate X"))
         self.label_rotate_y.setText(_translate("Form", "Rotate Y"))
         self.label_rotate_z.setText(_translate("Form", "Rotate Z"))
+        self.label_model_info.setText(_translate("Form", "Info:"))
         self.label_progress.setText(_translate("Form", "Progress"))
-

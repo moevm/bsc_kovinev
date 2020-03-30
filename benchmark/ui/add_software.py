@@ -2,16 +2,18 @@
 
 # Form implementation generated from reading ui file '../ui_raw/add_software.ui'
 #
-# Created by: PyQt5 UI code generator 5.10.1
+# Created by: PyQt5 UI code generator 5.14.1
 #
 # WARNING! All changes made in this file will be lost!
 
+
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(400, 301)
+        Dialog.resize(553, 365)
         self.verticalLayout_4 = QtWidgets.QVBoxLayout(Dialog)
         self.verticalLayout_4.setObjectName("verticalLayout_4")
         self.verticalLayout = QtWidgets.QVBoxLayout()
@@ -79,4 +81,3 @@ class Ui_Dialog(object):
 "- Output dir: $2"))
         self.button_add.setText(_translate("Dialog", "Add"))
         self.button_cancel.setText(_translate("Dialog", "Cancel"))
-

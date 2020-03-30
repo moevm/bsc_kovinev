@@ -139,6 +139,7 @@
      <string>Add</string>
     </property>
     <addaction name="actionAdd_Software"/>
+    <addaction name="actionAdd_Model"/>
    </widget>
    <widget class="QMenu" name="menuRun">
     <property name="title">
@@ -167,6 +168,9 @@
    <property name="text">
     <string>Add Software</string>
    </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+S</string>
+   </property>
   </action>
   <action name="actionCheck_exists">
    <property name="text">
@@ -176,6 +180,14 @@
   <action name="actionCheck_build">
    <property name="text">
     <string>Check build</string>
+   </property>
+  </action>
+  <action name="actionAdd_Model">
+   <property name="text">
+    <string>Add Model</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+M</string>
    </property>
   </action>
  </widget>

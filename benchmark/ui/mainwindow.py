@@ -2,11 +2,13 @@
 
 # Form implementation generated from reading ui file '../ui_raw/mainwindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.10.1
+# Created by: PyQt5 UI code generator 5.14.1
 #
 # WARNING! All changes made in this file will be lost!
 
+
 from PyQt5 import QtCore, QtGui, QtWidgets
+
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -82,7 +84,10 @@ class Ui_MainWindow(object):
         self.actionCheck_exists.setObjectName("actionCheck_exists")
         self.actionCheck_build = QtWidgets.QAction(MainWindow)
         self.actionCheck_build.setObjectName("actionCheck_build")
+        self.actionAdd_Model = QtWidgets.QAction(MainWindow)
+        self.actionAdd_Model.setObjectName("actionAdd_Model")
         self.menuAdd.addAction(self.actionAdd_Software)
+        self.menuAdd.addAction(self.actionAdd_Model)
         self.menuCheck.addAction(self.actionCheck_exists)
         self.menuCheck.addAction(self.actionCheck_build)
         self.menubar.addAction(self.menuAdd.menuAction())
@@ -105,6 +110,8 @@ class Ui_MainWindow(object):
         self.menuCheck.setTitle(_translate("MainWindow", "Build"))
         self.menuSettings.setTitle(_translate("MainWindow", "Settings"))
         self.actionAdd_Software.setText(_translate("MainWindow", "Add Software"))
+        self.actionAdd_Software.setShortcut(_translate("MainWindow", "Ctrl+Shift+S"))
         self.actionCheck_exists.setText(_translate("MainWindow", "Check exists"))
         self.actionCheck_build.setText(_translate("MainWindow", "Check build"))
-
+        self.actionAdd_Model.setText(_translate("MainWindow", "Add Model"))
+        self.actionAdd_Model.setShortcut(_translate("MainWindow", "Ctrl+Shift+M"))
