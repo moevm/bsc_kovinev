@@ -44,5 +44,11 @@ class sceneGraphAnalyzerMeterParser:
                f"Normals: {self.normals}\n" \
                f"Tris: {self.tris}"
 
+    def toDict(self):
+        return {"Texture": self.texture_memory,
+                "Vertices": self.vertices,
+                "Normals": self.normals,
+                "Tris": self.tris}
+
     def __str__(self):
         return self.toText()
