@@ -70,7 +70,7 @@ class ModelWidget(QtWidgets.QWidget, benchmark.ui.model.Ui_Form):
 
 
         self.label_object_name.setText("Model: " + model.filename.split("/")[-1])
-        self.modelView = ModelView(model.filename)
+        self.modelView = ModelView(model)
         self.widget = PandaWidget(self.modelView, self.label_model_info)
         self.verticalLayout.addWidget(self.widget)
 

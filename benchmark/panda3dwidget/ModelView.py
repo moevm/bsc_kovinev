@@ -7,7 +7,9 @@ from benchmark.panda3dwidget.CameraController import CameraController
 
 
 class ModelView(Panda3DWorld):
-    def __init__(self, path_model):
+    def __init__(self, model3D):
+        self.model3D = model3D
+
         Panda3DWorld.__init__(self)
         self.disable_mouse()
 
@@ -15,11 +17,13 @@ class ModelView(Panda3DWorld):
 
         self.set_collisions_handlers()
         self.set_light()
-        self.draw_model(path_model)
+        self.draw_model(self.model3D.filename)
         self.draw_grid()
 
         self.setFrameRateMeter(True)
         self.setSceneGraphAnalyzerMeter(True)
+
+        self.model3D.set_sgam(self.get_scene_graph_analyzer_meter())
 
     @property
     def camera_controller(self):
