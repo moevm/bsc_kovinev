@@ -24,11 +24,12 @@ class MainWindowApp(QtWidgets.QMainWindow, benchmark.ui.mainwindow.Ui_MainWindow
         self.actionAdd_Model.triggered.connect(self.add_model)
 
     def add_model(self):
-        fname = QFileDialog.getOpenFileName(self, 'Open file', '/home', "Model files (*.obj)")
+        fname = QFileDialog.getOpenFileName(self, 'Open file', '/home', "Model files (*.obj)")[0]
         print("[+] Filename passed from QFileDialog:", fname)
-        m = Model3D(fname[0])
-        widget = ModelWidget(self, m)
-        self.layout_widgets.addWidget(widget)
+        if fname:
+            m = Model3D(fname)
+            widget = ModelWidget(self, m)
+            self.layout_widgets.addWidget(widget)
 
     def f(self):
         dialog = AddSoftwareDialog(self)
