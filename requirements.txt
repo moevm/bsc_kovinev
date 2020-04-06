@@ -1,0 +1,5 @@
+panda3d==1.10.6.post2
+PyQt5==5.14.2
+PyQt5-sip==12.7.2
+PyQt5-stubs==5.14.1.0
+QPanda3D==0.2.7
