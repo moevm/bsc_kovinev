@@ -1,7 +1,8 @@
+import math
+
 from PyQt5.QtCore import Qt
 from direct.showbase.DirectObject import DirectObject
 from panda3d.core import NodePath, Point3, Vec3
-import math
 
 
 class CameraController(DirectObject):
@@ -23,7 +24,6 @@ class CameraController(DirectObject):
         self.target.reparentTo(self.base.render)
         self.base.camera.reparentTo(self.target)
 
-
         # Controls
         self.mouseDown1 = False
         self.mouseDown2 = False
@@ -33,11 +33,8 @@ class CameraController(DirectObject):
 
         self.updateCamera(0, 0)
 
-
-
     def setTarget(self, parent):
         self.target.reparentTo(parent)
-
 
     def rotateTheta(self, value):
         print(f"Theta: {value}")
@@ -49,7 +46,6 @@ class CameraController(DirectObject):
 
         self._rotatePhi(math.radians(value))
         self.updateCamera(self.mousePrevX, self.mousePrevY)
-
 
     def mouse_press(self, button, x, y):
         self.mouseDown1 = True if button == Qt.LeftButton else self.mouseDown1
@@ -71,7 +67,6 @@ class CameraController(DirectObject):
 
     def mouse_move(self, button, x, y):
         self.updateCamera(x, y)
-
 
     def zoom_event(self, delta):
         self.zoom(delta)
@@ -107,7 +102,6 @@ class CameraController(DirectObject):
         position.setZ(self.r * math.cos(self.phi))
         self.base.camera.setPos(position)
         self.base.camera.lookAt(self.target)
-
 
     def zoom(self, delta):
         self.r += delta * 0.2

@@ -52,7 +52,7 @@ class ModelView(Panda3DWorld):
     def draw_model(self, path_model):
         self.model = self.loader.loadModel(path_model)
         self.model.setPos(0, 0, 0)
-        #self.model.setLightOff()
+        # self.model.setLightOff()
         self.model.reparentTo(self.render)
 
     def draw_grid(self):

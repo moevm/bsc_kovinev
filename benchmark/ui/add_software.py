@@ -7,7 +7,7 @@
 # WARNING! All changes made in this file will be lost!
 
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtCore, QtWidgets
 
 
 class Ui_Dialog(object):
@@ -77,7 +77,7 @@ class Ui_Dialog(object):
         self.label_software_run_command.setText(_translate("Dialog", "Enter run command:"))
         self.edit_software_run_command.setPlaceholderText(_translate("Dialog", "python app --input $1 --output $2 "))
         self.label.setText(_translate("Dialog", "Set:\n"
-"- Input path with image: $1\n"
-"- Output dir: $2"))
+                                                "- Input path with image: $1\n"
+                                                "- Output dir: $2"))
         self.button_add.setText(_translate("Dialog", "Add"))
         self.button_cancel.setText(_translate("Dialog", "Cancel"))

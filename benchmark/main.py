@@ -1,13 +1,11 @@
 import sys
 
-
-import benchmark.ui.mainwindow
-import benchmark.ui.add_software
-import benchmark.ui.model
-
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QFileDialog
 
+import benchmark.ui.add_software
+import benchmark.ui.mainwindow
+import benchmark.ui.model
 from benchmark.model.model3D import Model3D
 from benchmark.panda3dwidget.ModelView import ModelView
 from benchmark.panda3dwidget.PandaWidget import PandaWidget
@@ -68,7 +66,6 @@ class ModelWidget(QtWidgets.QWidget, benchmark.ui.model.Ui_Form):
         self.parent = parent
         self.setupUi(self)
 
-
         self.label_object_name.setText("Model: " + model.filename.split("/")[-1])
         self.modelView = ModelView(model)
         self.widget = PandaWidget(self.modelView, self.label_model_info)
@@ -79,8 +76,6 @@ class ModelWidget(QtWidgets.QWidget, benchmark.ui.model.Ui_Form):
     def init_buttons(self):
         self.slider_rotate_x.valueChanged.connect(self.slider_changed_x)
         self.slider_rotate_y.valueChanged.connect(self.slider_changed_y)
-
-
 
     def slider_changed_x(self):
         self.modelView.camera_controller.rotatePhi(self.slider_rotate_x.value())

@@ -1,7 +1,5 @@
-from math import cos, radians
-
-from PyQt5.QtCore import QSize, QSizeF, Qt, QPointF
-from PyQt5.QtGui import QImage, QPainter, QTransform, QMouseEvent
+from PyQt5.QtCore import QSize, QSizeF, Qt
+from PyQt5.QtGui import QImage, QPainter, QTransform
 from PyQt5.QtWidgets import QWidget
 from QPanda3D.QPanda3D_Keys_Translation import QPanda3D_Key_translation
 from QPanda3D.QPanda3D_Modifiers_Translation import QPanda3D_Modifier_translation, QTimer
@@ -138,5 +136,3 @@ class PandaWidget(QWidget):
 
     def rotateY(self, value):
         self.panda3DWorld.camera_controller.rotatePhi(value)
-
-
