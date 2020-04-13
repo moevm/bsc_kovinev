@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>237</width>
+    <width>322</width>
     <height>600</height>
    </rect>
   </property>
@@ -130,7 +130,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>237</width>
+     <width>322</width>
      <height>22</height>
     </rect>
    </property>
@@ -158,9 +158,16 @@
      <string>Settings</string>
     </property>
    </widget>
+   <widget class="QMenu" name="menuInstall">
+    <property name="title">
+     <string>Download</string>
+    </property>
+    <addaction name="actionInstall_Software"/>
+   </widget>
    <addaction name="menuAdd"/>
-   <addaction name="menuRun"/>
+   <addaction name="menuInstall"/>
    <addaction name="menuCheck"/>
+   <addaction name="menuRun"/>
    <addaction name="menuSettings"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
@@ -188,6 +195,11 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+M</string>
+   </property>
+  </action>
+  <action name="actionInstall_Software">
+   <property name="text">
+    <string>Install Software</string>
    </property>
   </action>
  </widget>

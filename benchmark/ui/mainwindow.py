@@ -2,18 +2,17 @@
 
 # Form implementation generated from reading ui file '../ui_raw/mainwindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.1
+# Created by: PyQt5 UI code generator 5.12.1
 #
 # WARNING! All changes made in this file will be lost!
 
-
-from PyQt5 import QtCore, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(237, 600)
+        MainWindow.resize(322, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.verticalLayout_3 = QtWidgets.QVBoxLayout(self.centralwidget)
@@ -64,7 +63,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_3.addLayout(self.horizontalLayout)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 237, 22))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 322, 22))
         self.menubar.setObjectName("menubar")
         self.menuAdd = QtWidgets.QMenu(self.menubar)
         self.menuAdd.setObjectName("menuAdd")
@@ -74,6 +73,8 @@ class Ui_MainWindow(object):
         self.menuCheck.setObjectName("menuCheck")
         self.menuSettings = QtWidgets.QMenu(self.menubar)
         self.menuSettings.setObjectName("menuSettings")
+        self.menuInstall = QtWidgets.QMenu(self.menubar)
+        self.menuInstall.setObjectName("menuInstall")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(MainWindow)
         self.statusbar.setObjectName("statusbar")
@@ -86,13 +87,17 @@ class Ui_MainWindow(object):
         self.actionCheck_build.setObjectName("actionCheck_build")
         self.actionAdd_Model = QtWidgets.QAction(MainWindow)
         self.actionAdd_Model.setObjectName("actionAdd_Model")
+        self.actionInstall_Software = QtWidgets.QAction(MainWindow)
+        self.actionInstall_Software.setObjectName("actionInstall_Software")
         self.menuAdd.addAction(self.actionAdd_Software)
         self.menuAdd.addAction(self.actionAdd_Model)
         self.menuCheck.addAction(self.actionCheck_exists)
         self.menuCheck.addAction(self.actionCheck_build)
+        self.menuInstall.addAction(self.actionInstall_Software)
         self.menubar.addAction(self.menuAdd.menuAction())
-        self.menubar.addAction(self.menuRun.menuAction())
+        self.menubar.addAction(self.menuInstall.menuAction())
         self.menubar.addAction(self.menuCheck.menuAction())
+        self.menubar.addAction(self.menuRun.menuAction())
         self.menubar.addAction(self.menuSettings.menuAction())
 
         self.retranslateUi(MainWindow)
@@ -109,9 +114,13 @@ class Ui_MainWindow(object):
         self.menuRun.setTitle(_translate("MainWindow", "Run"))
         self.menuCheck.setTitle(_translate("MainWindow", "Build"))
         self.menuSettings.setTitle(_translate("MainWindow", "Settings"))
+        self.menuInstall.setTitle(_translate("MainWindow", "Download"))
         self.actionAdd_Software.setText(_translate("MainWindow", "Add Software"))
         self.actionAdd_Software.setShortcut(_translate("MainWindow", "Ctrl+Shift+S"))
         self.actionCheck_exists.setText(_translate("MainWindow", "Check exists"))
         self.actionCheck_build.setText(_translate("MainWindow", "Check build"))
         self.actionAdd_Model.setText(_translate("MainWindow", "Add Model"))
         self.actionAdd_Model.setShortcut(_translate("MainWindow", "Ctrl+Shift+M"))
+        self.actionInstall_Software.setText(_translate("MainWindow", "Install Software"))
+
+

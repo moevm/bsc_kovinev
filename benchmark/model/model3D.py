@@ -1,4 +1,12 @@
+import re
+
+
 class Model3D:
+    """
+        Class Model3D
+        Contains main information about generated or imorted models
+        @param filename: path to the file with the model (.obj)
+    """
     def __init__(self, filename=""):
         self.filename_ = filename
         self.mesh = []
@@ -12,11 +20,16 @@ class Model3D:
         return self.filename_
 
     def set_sgam(self, sgam):
-        sgam_dict = sgam.toDict()
-        self.texture_ = sgam_dict["Texture"]
-        self.vertices_ = sgam_dict["Vertices"]
-        self.normals_ = sgam_dict["Normals"]
-        self.tris_ = sgam_dict["Tris"]
+        sgam = str(sgam)
+        regex_texture = re.compile(r"Texture memory: ([\d\.]+)")
+        regex_vertices = re.compile(r"Vertices: (\d+)")
+        regex_normals = re.compile(r"Normals: (\d+)")
+        regex_tris = re.compile(r"Tris: (\d+)")
+
+        self.texture_memory_ = re.findall(regex_texture, sgam)[0]
+        self.vertices_ = re.findall(regex_vertices, sgam)[0]
+        self.normals_ = re.findall(regex_normals, sgam)[0]
+        self.tris_ = re.findall(regex_tris, sgam)[0]
 
     @property
     def vertices(self):

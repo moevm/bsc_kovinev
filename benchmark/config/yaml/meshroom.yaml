@@ -1,0 +1,92 @@
+name: Meshroom
+settings:
+  install:
+    link: "https://github.com/alicevision/meshroom/releases/download/v2019.2.0/Meshroom-2019.2.0-linux.tar.gz"
+    extraction: ""
+  run:
+    directory: "/Meshroom-2019.2.0/"
+    environ:
+      - arg_1:
+          key: "LD_LIBRARY_PATH"
+          value: "aliceVision/lib/"
+          is_path: true
+    is_step_running_support: true
+    steps:
+      steps_count: 2
+      steps:
+        - 0:
+            order: 1
+            name: "CameraInit"
+            executable_dir: "/aliceVision/bin"
+            executable: "/aliceVision_cameraInit"
+            output:
+              is_output_required: true
+              output_key: "--output"
+              output_location: "/00_CameraInit/cameraInit.sfm"
+              output_is_folder: false
+            input:
+              is_input_required: false
+              input_key: ""
+              input_location: ""
+            images:
+              is_image_required: true
+              input_image_key: "--imageFolder"
+            extra_args: "--defaultFieldOfView 45.0 --verboseLevel info --sensorDatabase \"\" --allowSingleView 1"
+            specific_args: ""
+        - 1:
+            order: 2
+            name: "FeatureExtraction"
+            executable_dir: "/aliceVision/bin"
+            executable: "/aliceVision_featureExtraction"
+            output:
+              is_output_required: true
+              output_key: "--output"
+              output_location: "/01_FeatureExtraction/"
+              output_is_folder: true
+            input:
+              is_input_required: true
+              input_key: "--input"
+              input_location: "/00_CameraInit/cameraInit.sfm"
+            images:
+              is_image_required: false
+              input_image_key: ""
+            extra_args: " --describerTypes sift --forceCpuExtraction True --verboseLevel info --describerPreset normal"
+            specific_args: "--rangeStart 0 --rangeSize {}"
+        - 2:
+            order: 3
+            name: "ImageMatching"
+            executable_dir: "/aliceVision/bin"
+            executable: "/aliceVision_imageMatching"
+            output:
+              is_output_required: true
+              output_key: "--output"
+              output_location: "/02_ImageMatching/imageMatches.txt"
+              output_is_folder: false
+            input:
+              is_input_required: true
+              input_key: "--input"
+              input_location: "/00_CameraInit/cameraInit.sfm"
+            images:
+              is_image_required: false
+              input_image_key: ""
+            extra_args: "--minNbImages 200 --tree \"\" --maxDescriptors 500 --verboseLevel info --weights \"\" --nbMatches 50 --featuresFolder "
+            specific_args: "--featuresFolder \"{}/01_FeatureExtraction/\""
+        - 3:
+            order: 4
+            name: "StructureFromMotion"
+            executable_dir: "/aliceVision/bin"
+            executable: "/aliceVision_imageMatching"
+            output:
+              is_output_required: true
+              output_key: "--output"
+              output_location: "/02_ImageMatching/imageMatches.txt"
+              output_is_folder: false
+            input:
+              is_input_required: true
+              input_key: "--input"
+              input_location: "/00_CameraInit/cameraInit.sfm"
+            images:
+              is_image_required: false
+              input_image_key: ""
+            extra_args: "--minNbImages 200 --tree \"\" --maxDescriptors 500 --verboseLevel info --weights \"\" --nbMatches 50 --featuresFolder "
+            specific_args: "--featuresFolder \"{}/01_FeatureExtraction/\""

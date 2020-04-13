@@ -2,12 +2,11 @@
 
 # Form implementation generated from reading ui file '../ui_raw/model.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.1
+# Created by: PyQt5 UI code generator 5.12.1
 #
 # WARNING! All changes made in this file will be lost!
 
-
-from PyQt5 import QtCore, QtWidgets
+from PyQt5 import QtCore, QtGui, QtWidgets
 
 
 class Ui_Form(object):
@@ -109,3 +108,5 @@ class Ui_Form(object):
         self.label_rotate_z.setText(_translate("Form", "Rotate Z"))
         self.label_model_info.setText(_translate("Form", "Info:"))
         self.label_progress.setText(_translate("Form", "Progress"))
+
+
