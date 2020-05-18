@@ -1,0 +1,22 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh label="texturedMesh.obj" filename="../../meshroom/original/texturedMesh.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+  <MLMesh label="original.obj" filename="original.obj">
+   <MLMatrix44>
+0.0166261 0.0702419 0.0076252 -0.28583 
+0.000975267 0.00760457 -0.0721783 0.329478 
+-0.0706478 0.0166356 0.000798102 2.37884 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>

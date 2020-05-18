@@ -1,0 +1,22 @@
+<!DOCTYPE MeshLabDocument>
+<MeshLabProject>
+ <MeshGroup>
+  <MLMesh label="original.obj" filename="../../3df_zephyr/original/original.obj">
+   <MLMatrix44>
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+  <MLMesh label="texturedMesh.obj" filename="texturedMesh.obj">
+   <MLMatrix44>
+3.94313 -0.320655 -12.5417 30.6993 
+12.4217 1.94399 3.85571 -5.8339 
+1.75993 -13.0024 0.885758 2.9674 
+0 0 0 1 
+</MLMatrix44>
+  </MLMesh>
+ </MeshGroup>
+ <RasterGroup/>
+</MeshLabProject>
