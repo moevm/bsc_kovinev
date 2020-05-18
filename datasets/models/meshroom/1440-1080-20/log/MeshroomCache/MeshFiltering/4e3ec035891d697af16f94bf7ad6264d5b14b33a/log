@@ -1,0 +1,43 @@
+Program called with the following parameters:
+ * inputMesh = "C:/Users/Alien/Desktop/MeshroomCache/Meshing/140f9ceb33e46c75ccfc580a4e22059fbfbaeab4/mesh.obj"
+ * iterations = 5
+ * keepLargestMeshOnly = 0
+ * lambda = 1
+ * outputMesh = "C:/Users/Alien/Desktop/MeshroomCache/MeshFiltering/4e3ec035891d697af16f94bf7ad6264d5b14b33a/mesh.obj"
+ * removeLargeTrianglesFactor = 60
+ * verboseLevel = "info"
+
+[03:26:04.704531][info] Loading mesh from obj file: C:/Users/Alien/Desktop/MeshroomCache/Meshing/140f9ceb33e46c75ccfc580a4e22059fbfbaeab4/mesh.obj
+[03:26:04.788791][info] 	- # vertices: 56125
+	- # normals: 0
+	- # uv coordinates: 0
+	- # triangles: 111991
+[03:26:05.002296][info] Mesh loaded: 
+	- #points: 56125
+	- # triangles: 111991
+[03:26:05.003263][info] Mesh file: "C:/Users/Alien/Desktop/MeshroomCache/Meshing/140f9ceb33e46c75ccfc580a4e22059fbfbaeab4/mesh.obj" loaded.
+[03:26:05.003263][info] Input mesh: 56125 vertices and 111991 facets.
+[03:26:05.011294][info] Mesh after large triangles removal: 56125 vertices and 111991 facets.
+[03:26:05.011294][info] Start mesh filtering.
+[03:26:05.436442][info] cleanMesh:
+	- # wrong points: 0
+	- # new points: 0
+[03:26:05.514649][info] Optimizing mesh smooth: 
+	- lamda: 1
+	- niters: 5
+
+[03:26:05.514649][info] Optimizing mesh smooth: iteration 0
+[03:26:05.523673][info] Optimizing mesh smooth: iteration 1
+[03:26:05.530692][info] Optimizing mesh smooth: iteration 2
+[03:26:05.537711][info] Optimizing mesh smooth: iteration 3
+[03:26:05.544729][info] Optimizing mesh smooth: iteration 4
+[03:26:05.552751][info] Mesh filtering done: 56125 vertices and 111991 facets.
+[03:26:05.552751][info] remove free points from mesh.
+Output mesh: 56125 vertices and 111991 facets.
+[03:26:05.558767][info] Save mesh.
+[03:26:05.558767][info] Save mesh to obj: C:/Users/Alien/Desktop/MeshroomCache/MeshFiltering/4e3ec035891d697af16f94bf7ad6264d5b14b33a/mesh.obj
+[03:26:05.558767][info] Nb points: 56125
+[03:26:05.558767][info] Nb triangles: 111991
+[03:26:05.720197][info] Save mesh to obj done.
+[03:26:05.720197][info] Mesh file: "C:/Users/Alien/Desktop/MeshroomCache/MeshFiltering/4e3ec035891d697af16f94bf7ad6264d5b14b33a/mesh.obj" saved.
+[03:26:05.720197][info] Task done in (s): 1.017000

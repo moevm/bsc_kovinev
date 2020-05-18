@@ -1,0 +1,783 @@
+{
+    "version": [
+        1,
+        0,
+        0
+    ],
+    "views": [
+        {
+            "viewId": 9100444,
+            "poseId": 9100444,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0005.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 39228547,
+            "poseId": 39228547,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0039.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 53615480,
+            "poseId": 53615480,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0016.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 201379104,
+            "poseId": 201379104,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0035.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 215708560,
+            "poseId": 215708560,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0038.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 240072605,
+            "poseId": 240072605,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0048.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 244957115,
+            "poseId": 244957115,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0001.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 271657992,
+            "poseId": 271657992,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0018.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 294420513,
+            "poseId": 294420513,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0028.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 323690010,
+            "poseId": 323690010,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0029.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 333885708,
+            "poseId": 333885708,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0042.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 381804608,
+            "poseId": 381804608,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0047.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 457942114,
+            "poseId": 457942114,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0030.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 469853376,
+            "poseId": 469853376,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0044.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 598476991,
+            "poseId": 598476991,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0023.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 664385476,
+            "poseId": 664385476,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0022.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 670694811,
+            "poseId": 670694811,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0007.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 855031664,
+            "poseId": 855031664,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0049.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 861018912,
+            "poseId": 861018912,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0036.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 974967230,
+            "poseId": 974967230,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0006.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1009103060,
+            "poseId": 1009103060,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0033.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1117947081,
+            "poseId": 1117947081,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0026.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1133318834,
+            "poseId": 1133318834,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0003.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1164625911,
+            "poseId": 1164625911,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0002.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1176824930,
+            "poseId": 1176824930,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0010.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1251708541,
+            "poseId": 1251708541,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0046.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1309279213,
+            "poseId": 1309279213,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0031.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1374134381,
+            "poseId": 1374134381,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0011.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1377371419,
+            "poseId": 1377371419,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0019.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1385067319,
+            "poseId": 1385067319,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0043.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1397998855,
+            "poseId": 1397998855,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0004.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1427329861,
+            "poseId": 1427329861,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0025.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1458215115,
+            "poseId": 1458215115,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0034.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1471568385,
+            "poseId": 1471568385,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0012.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1560319651,
+            "poseId": 1560319651,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0037.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1593896531,
+            "poseId": 1593896531,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0050.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1595212049,
+            "poseId": 1595212049,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0020.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1599421579,
+            "poseId": 1599421579,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0017.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1630359084,
+            "poseId": 1630359084,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0008.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1740614238,
+            "poseId": 1740614238,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0015.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1757313003,
+            "poseId": 1757313003,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0045.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1800357838,
+            "poseId": 1800357838,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0013.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1839230745,
+            "poseId": 1839230745,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0009.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1994604610,
+            "poseId": 1994604610,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0027.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 1996197185,
+            "poseId": 1996197185,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0014.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 2010690355,
+            "poseId": 2010690355,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0040.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 2031696560,
+            "poseId": 2031696560,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0024.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 2056668188,
+            "poseId": 2056668188,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0021.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 2066217026,
+            "poseId": 2066217026,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0041.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": 2125114409,
+            "poseId": 2125114409,
+            "path": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow/0032.jpg",
+            "intrinsicId": 2817073016,
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": 2817073016,
+            "pxInitialFocalLength": -1.0,
+            "pxFocalLength": 1738.2337649086282,
+            "type": "radial3",
+            "width": 1440,
+            "height": 1080,
+            "serialNumber": "D:/Documents/GitHub/bsc_kovinev/datasets/1440-1080-20-snow",
+            "principalPoint": [
+                720.0,
+                540.0
+            ],
+            "initializationMode": "unknown",
+            "distortionParams": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "locked": false
+        }
+    ],
+    "featureFolder": "",
+    "matchingFolder": ""
+}

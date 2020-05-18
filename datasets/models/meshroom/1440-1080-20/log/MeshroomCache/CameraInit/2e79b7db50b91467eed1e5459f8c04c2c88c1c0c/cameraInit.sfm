@@ -1,0 +1,881 @@
+{
+    "version": [
+        "1",
+        "0",
+        "0"
+    ],
+    "views": [
+        {
+            "viewId": "9100444",
+            "poseId": "9100444",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0005.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "39228547",
+            "poseId": "39228547",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0039.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "53615480",
+            "poseId": "53615480",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0016.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "201379104",
+            "poseId": "201379104",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0035.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "215708560",
+            "poseId": "215708560",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0038.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "240072605",
+            "poseId": "240072605",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0048.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "244957115",
+            "poseId": "244957115",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0001.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "271657992",
+            "poseId": "271657992",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0018.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "294420513",
+            "poseId": "294420513",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0028.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "323690010",
+            "poseId": "323690010",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0029.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "333885708",
+            "poseId": "333885708",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0042.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "381804608",
+            "poseId": "381804608",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0047.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "457942114",
+            "poseId": "457942114",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0030.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "469853376",
+            "poseId": "469853376",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0044.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "598476991",
+            "poseId": "598476991",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0023.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "664385476",
+            "poseId": "664385476",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0022.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "670694811",
+            "poseId": "670694811",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0007.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "855031664",
+            "poseId": "855031664",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0049.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "861018912",
+            "poseId": "861018912",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0036.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "974967230",
+            "poseId": "974967230",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0006.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1009103060",
+            "poseId": "1009103060",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0033.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1117947081",
+            "poseId": "1117947081",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0026.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1133318834",
+            "poseId": "1133318834",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0003.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1164625911",
+            "poseId": "1164625911",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0002.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1176824930",
+            "poseId": "1176824930",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0010.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1251708541",
+            "poseId": "1251708541",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0046.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1309279213",
+            "poseId": "1309279213",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0031.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1374134381",
+            "poseId": "1374134381",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0011.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1377371419",
+            "poseId": "1377371419",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0019.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1385067319",
+            "poseId": "1385067319",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0043.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1397998855",
+            "poseId": "1397998855",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0004.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1427329861",
+            "poseId": "1427329861",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0025.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1458215115",
+            "poseId": "1458215115",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0034.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1471568385",
+            "poseId": "1471568385",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0012.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1560319651",
+            "poseId": "1560319651",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0037.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1593896531",
+            "poseId": "1593896531",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0050.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1595212049",
+            "poseId": "1595212049",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0020.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1599421579",
+            "poseId": "1599421579",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0017.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1630359084",
+            "poseId": "1630359084",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0008.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1740614238",
+            "poseId": "1740614238",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0015.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1757313003",
+            "poseId": "1757313003",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0045.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1800357838",
+            "poseId": "1800357838",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0013.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1839230745",
+            "poseId": "1839230745",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0009.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1994604610",
+            "poseId": "1994604610",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0027.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1996197185",
+            "poseId": "1996197185",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0014.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2010690355",
+            "poseId": "2010690355",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0040.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2031696560",
+            "poseId": "2031696560",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0024.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2056668188",
+            "poseId": "2056668188",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0021.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2066217026",
+            "poseId": "2066217026",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0041.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2125114409",
+            "poseId": "2125114409",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0032.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "2798600110",
+            "width": "1440",
+            "height": "1080",
+            "serialNumber": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1738.2337649086282",
+            "principalPoint": [
+                "720",
+                "540"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "0"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+Program called with the following parameters:
+ * allowSingleView = 1
+ * defaultCameraModel = "" (default)
+ * defaultFieldOfView = 45
+ * defaultFocalLengthPix = -1 (default)
+ * defaultIntrinsic = "" (default)
+ * groupCameraFallback =  Unknown Type "enum EGroupCameraFallback"
+ * imageFolder = "" (default)
+ * input = "C:/Users/Alien/Desktop/MeshroomCache/CameraInit/4322c0f68d5bebb3e7739f516474a23f473703b0//viewpoints.sfm"
+ * output = "C:/Users/Alien/Desktop/MeshroomCache/CameraInit/4322c0f68d5bebb3e7739f516474a23f473703b0/cameraInit.sfm"
+ * sensorDatabase = "C:\Users\Alien\Desktop\Meshroom-2019.2.0\aliceVision\share\aliceVision\cameraSensors.db"
+ * verboseLevel = "info"
+
+[03:35:25.782456][info] CameraInit report:
+	- # views listed: 50
+	   - # views with an initialized intrinsic listed: 50
+	   - # views without metadata (with a default intrinsic): 0
+	- # intrinsics listed: 1

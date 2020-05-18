@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "DepthMap_1",
+    "nodeType": "DepthMap",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_depthMapEstimation  --input \"C:/Users/Alien/Desktop/MeshroomCache/StructureFromMotion/f2dc9f8b462a3c00cadee99fe065bd40fa373890/sfm.abc\" --imagesFolder \"C:/Users/Alien/Desktop/MeshroomCache/PrepareDenseScene/a0f6b549f3156c6540052339fb729101acdc1c34\" --downscale 2 --minViewAngle 2.0 --maxViewAngle 70.0 --sgmMaxTCams 10 --sgmWSH 4 --sgmGammaC 5.5 --sgmGammaP 8.0 --refineMaxTCams 6 --refineNSamplesHalf 150 --refineNDepthsToRefine 31 --refineNiters 100 --refineWSH 3 --refineSigma 15 --refineGammaC 15.5 --refineGammaP 8.0 --refineUseTcOrRcPixSize False --exportIntermediateResults False --nbGPUs 0 --verboseLevel info --output \"C:/Users/Alien/Desktop/MeshroomCache/DepthMap/4455765f3a164c567f3e22357f2d1e7349b9bb7a\" --rangeStart 21 --rangeSize 3",
+    "env": null,
+    "startDateTime": "2020-05-18 03:38:30.706028",
+    "endDateTime": "2020-05-18 03:38:45.470353",
+    "elapsedTime": 14.764324426651001,
+    "hostname": "DESKTOP-T8T7I7E",
+    "sessionUid": "6ca6e3e2-989e-11ea-8488-38d547483d26",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:14.764324"
+}
