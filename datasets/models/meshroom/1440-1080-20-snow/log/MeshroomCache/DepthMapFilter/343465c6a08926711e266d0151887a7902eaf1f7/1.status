@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "DepthMapFilter_1",
+    "nodeType": "DepthMapFilter",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_depthMapFiltering  --input \"C:/Users/Alien/Desktop/MeshroomCache/StructureFromMotion/f2dc9f8b462a3c00cadee99fe065bd40fa373890/sfm.abc\" --depthMapsFolder \"C:/Users/Alien/Desktop/MeshroomCache/DepthMap/4455765f3a164c567f3e22357f2d1e7349b9bb7a\" --minViewAngle 2.0 --maxViewAngle 70.0 --nNearestCams 10 --minNumOfConsistentCams 3 --minNumOfConsistentCamsWithLowSimilarity 4 --pixSizeBall 0 --pixSizeBallWithLowSimilarity 0 --computeNormalMaps False --verboseLevel info --output \"C:/Users/Alien/Desktop/MeshroomCache/DepthMapFilter/343465c6a08926711e266d0151887a7902eaf1f7\" --rangeStart 10 --rangeSize 10",
+    "env": null,
+    "startDateTime": "2020-05-18 03:40:41.290741",
+    "endDateTime": "2020-05-18 03:40:48.211146",
+    "elapsedTime": 6.920405149459839,
+    "hostname": "DESKTOP-T8T7I7E",
+    "sessionUid": "6ca6e3e2-989e-11ea-8488-38d547483d26",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:06.920405"
+}

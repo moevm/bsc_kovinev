@@ -1,0 +1,1791 @@
+{
+    "version": [
+        "1",
+        "0",
+        "0"
+    ],
+    "featuresFolders": [
+        "..\\..\\FeatureExtraction\\5f81e03c1f42aa1127ead623fdbe09e51d865f13"
+    ],
+    "matchesFolders": [
+        "..\\..\\FeatureMatching\\bd539dec901617a30bcf64958b628866ce38f3d3"
+    ],
+    "views": [
+        {
+            "viewId": "9100444",
+            "poseId": "9100444",
+            "intrinsicId": "2798600110",
+            "resectionId": "21",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0005.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "39228547",
+            "poseId": "39228547",
+            "intrinsicId": "2798600110",
+            "resectionId": "2",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0039.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "53615480",
+            "poseId": "53615480",
+            "intrinsicId": "2798600110",
+            "resectionId": "30",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0016.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "201379104",
+            "poseId": "201379104",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0035.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "215708560",
+            "poseId": "215708560",
+            "intrinsicId": "2798600110",
+            "resectionId": "1",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0038.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "240072605",
+            "poseId": "240072605",
+            "intrinsicId": "2798600110",
+            "resectionId": "14",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0048.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "244957115",
+            "poseId": "244957115",
+            "intrinsicId": "2798600110",
+            "resectionId": "16",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0001.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "271657992",
+            "poseId": "271657992",
+            "intrinsicId": "2798600110",
+            "resectionId": "31",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0018.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "294420513",
+            "poseId": "294420513",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0028.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "323690010",
+            "poseId": "323690010",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0029.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "333885708",
+            "poseId": "333885708",
+            "intrinsicId": "2798600110",
+            "resectionId": "8",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0042.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "381804608",
+            "poseId": "381804608",
+            "intrinsicId": "2798600110",
+            "resectionId": "13",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0047.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "457942114",
+            "poseId": "457942114",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0030.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "469853376",
+            "poseId": "469853376",
+            "intrinsicId": "2798600110",
+            "resectionId": "10",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0044.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "598476991",
+            "poseId": "598476991",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0023.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "664385476",
+            "poseId": "664385476",
+            "intrinsicId": "2798600110",
+            "resectionId": "34",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0022.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "670694811",
+            "poseId": "670694811",
+            "intrinsicId": "2798600110",
+            "resectionId": "23",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0007.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "855031664",
+            "poseId": "855031664",
+            "intrinsicId": "2798600110",
+            "resectionId": "18",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0049.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "861018912",
+            "poseId": "861018912",
+            "intrinsicId": "2798600110",
+            "resectionId": "0",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0036.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "974967230",
+            "poseId": "974967230",
+            "intrinsicId": "2798600110",
+            "resectionId": "22",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0006.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1009103060",
+            "poseId": "1009103060",
+            "intrinsicId": "2798600110",
+            "resectionId": "6",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0033.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1117947081",
+            "poseId": "1117947081",
+            "intrinsicId": "2798600110",
+            "resectionId": "36",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0026.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1133318834",
+            "poseId": "1133318834",
+            "intrinsicId": "2798600110",
+            "resectionId": "19",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0003.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1164625911",
+            "poseId": "1164625911",
+            "intrinsicId": "2798600110",
+            "resectionId": "17",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0002.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1176824930",
+            "poseId": "1176824930",
+            "intrinsicId": "2798600110",
+            "resectionId": "26",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0010.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1251708541",
+            "poseId": "1251708541",
+            "intrinsicId": "2798600110",
+            "resectionId": "12",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0046.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1309279213",
+            "poseId": "1309279213",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0031.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1374134381",
+            "poseId": "1374134381",
+            "intrinsicId": "2798600110",
+            "resectionId": "27",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0011.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1377371419",
+            "poseId": "1377371419",
+            "intrinsicId": "2798600110",
+            "resectionId": "5",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0019.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1385067319",
+            "poseId": "1385067319",
+            "intrinsicId": "2798600110",
+            "resectionId": "9",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0043.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1397998855",
+            "poseId": "1397998855",
+            "intrinsicId": "2798600110",
+            "resectionId": "20",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0004.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1427329861",
+            "poseId": "1427329861",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0025.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1458215115",
+            "poseId": "1458215115",
+            "intrinsicId": "2798600110",
+            "resectionId": "3",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0034.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1471568385",
+            "poseId": "1471568385",
+            "intrinsicId": "2798600110",
+            "resectionId": "28",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0012.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1560319651",
+            "poseId": "1560319651",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0037.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1593896531",
+            "poseId": "1593896531",
+            "intrinsicId": "2798600110",
+            "resectionId": "15",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0050.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1595212049",
+            "poseId": "1595212049",
+            "intrinsicId": "2798600110",
+            "resectionId": "32",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0020.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1599421579",
+            "poseId": "1599421579",
+            "intrinsicId": "2798600110",
+            "resectionId": "33",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0017.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1630359084",
+            "poseId": "1630359084",
+            "intrinsicId": "2798600110",
+            "resectionId": "24",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0008.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1740614238",
+            "poseId": "1740614238",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0015.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1757313003",
+            "poseId": "1757313003",
+            "intrinsicId": "2798600110",
+            "resectionId": "11",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0045.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1800357838",
+            "poseId": "1800357838",
+            "intrinsicId": "2798600110",
+            "resectionId": "29",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0013.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1839230745",
+            "poseId": "1839230745",
+            "intrinsicId": "2798600110",
+            "resectionId": "25",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0009.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1994604610",
+            "poseId": "1994604610",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0027.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1996197185",
+            "poseId": "1996197185",
+            "intrinsicId": "2798600110",
+            "resectionId": "29",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0014.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2010690355",
+            "poseId": "2010690355",
+            "intrinsicId": "2798600110",
+            "resectionId": "4",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0040.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2031696560",
+            "poseId": "2031696560",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0024.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2056668188",
+            "poseId": "2056668188",
+            "intrinsicId": "2798600110",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0021.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2066217026",
+            "poseId": "2066217026",
+            "intrinsicId": "2798600110",
+            "resectionId": "7",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0041.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2125114409",
+            "poseId": "2125114409",
+            "intrinsicId": "2798600110",
+            "resectionId": "35",
+            "path": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20\/0032.jpg",
+            "width": "1440",
+            "height": "1080",
+            "metadata": {
+                "ImageDescription": "Lavc58.82.100",
+                "PixelAspectRatio": "0.75",
+                "ResolutionUnit": "none",
+                "XResolution": "4",
+                "YResolution": "3",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "2798600110",
+            "width": "1440",
+            "height": "1080",
+            "serialNumber": "D:\/Documents\/GitHub\/bsc_kovinev\/datasets\/1440-1080-20",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1250.5610496000313",
+            "principalPoint": [
+                "709.09144229357946",
+                "486.10432421061984"
+            ],
+            "distortionParams": [
+                "0.017150689466867198",
+                "-0.28119672453885447",
+                "0.58046800824188871"
+            ],
+            "locked": "0"
+        }
+    ],
+    "poses": [
+        {
+            "poseId": "9100444",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.40388994450902188",
+                        "0.018838483470480501",
+                        "0.91461359287134569",
+                        "-0.008686212011921858",
+                        "0.99966390166630925",
+                        "-0.024426080859928846",
+                        "-0.91476634308733895",
+                        "-0.017809976019755633",
+                        "-0.40359056271027022"
+                    ],
+                    "center": [
+                        "-1.6505996525818012",
+                        "-0.035142785487670095",
+                        "2.862451007455693"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "39228547",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.71269216266065005",
+                        "0.0045542272063873292",
+                        "0.70146214459273426",
+                        "0.019231859433038075",
+                        "0.99947618066951704",
+                        "-0.026028827423124009",
+                        "-0.70121324635579541",
+                        "0.032040962670111979",
+                        "0.71223125447170532"
+                    ],
+                    "center": [
+                        "-1.2676323117851964",
+                        "-0.03006493257890663",
+                        "0.79663611730203854"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "53615480",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.97897071032436433",
+                        "-0.010950341364726069",
+                        "0.20370674596342031",
+                        "-0.02003613335721785",
+                        "0.99889155905788696",
+                        "-0.042593504234759209",
+                        "-0.20301453565471922",
+                        "-0.045779288623794039",
+                        "-0.97810498160780168"
+                    ],
+                    "center": [
+                        "-0.32686853220594364",
+                        "-2.4086822541262085e-05",
+                        "3.9137108345819125"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "201379104",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.99808341464339134",
+                        "-0.026845983559378325",
+                        "0.055756529487745954",
+                        "0.02815852968503705",
+                        "0.99934135859790008",
+                        "-0.022889871159100197",
+                        "-0.055105304824174445",
+                        "0.024416022657937311",
+                        "0.99818197900873862"
+                    ],
+                    "center": [
+                        "-0.065189802719345713",
+                        "-0.026376666809142597",
+                        "0.26272857030917135"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "215708560",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.82613282334814786",
+                        "-0.011565726048132951",
+                        "0.56335671840122514",
+                        "0.019867422803541136",
+                        "0.99976555511908594",
+                        "-0.0086093152208040705",
+                        "-0.56312506932116158",
+                        "0.018304884004149653",
+                        "0.82616892190618707"
+                    ],
+                    "center": [
+                        "-1.0109971419825459",
+                        "-0.052421061912254902",
+                        "0.59047941207552956"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "240072605",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.26594741554879686",
+                        "0.020378314436568085",
+                        "0.96377211853406508",
+                        "-0.0056962775008671572",
+                        "0.99972585778681811",
+                        "-0.022710387382075186",
+                        "-0.96397070732753543",
+                        "-0.01152968226514357",
+                        "-0.26575842760167767"
+                    ],
+                    "center": [
+                        "-1.7431849117653442",
+                        "-0.03809121839284807",
+                        "2.6086619429349289"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "244957115",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.33022759636519794",
+                        "0.019543615525663072",
+                        "0.94369898892128146",
+                        "-0.0071964774332291476",
+                        "0.99970443751501592",
+                        "-0.023221720981405403",
+                        "-0.94387390328974385",
+                        "-0.014459761580685957",
+                        "-0.32998934828811188"
+                    ],
+                    "center": [
+                        "-1.7051362676013164",
+                        "-0.037058637204504398",
+                        "2.7269550497091526"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "271657992",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.99803687118889062",
+                        "-0.009561588493048544",
+                        "-0.061894909103894336",
+                        "-0.0089056604712006247",
+                        "0.99990131926698866",
+                        "-0.010864664730517172",
+                        "0.061992684722162461",
+                        "-0.010292120948786542",
+                        "-0.9980235364395541"
+                    ],
+                    "center": [
+                        "0.16006153447530663",
+                        "-0.03709890059760762",
+                        "3.928294798584373"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "333885708",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.31768279679394229",
+                        "0.018568449948343176",
+                        "0.94801521785659892",
+                        "0.0075986171052879218",
+                        "0.99972627733868358",
+                        "-0.022127616605152514",
+                        "-0.94816660014960774",
+                        "0.014233167779987342",
+                        "0.31745474527195328"
+                    ],
+                    "center": [
+                        "-1.72206660527474",
+                        "-0.038901183867779937",
+                        "1.5321762223494644"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "381804608",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.20942864784200552",
+                        "0.021438318995056559",
+                        "0.97758889106911173",
+                        "-0.0048062597422884948",
+                        "0.99972498276688726",
+                        "-0.02295340277685556",
+                        "-0.97781211964792036",
+                        "-0.0095056462385837183",
+                        "-0.20926801322521321"
+                    ],
+                    "center": [
+                        "-1.7696277125087199",
+                        "-0.037906590071479888",
+                        "2.5045504983432703"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "469853376",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.066951015129416716",
+                        "0.022021755815198031",
+                        "0.9975132098593763",
+                        "0.001749634349198859",
+                        "0.9997522713067547",
+                        "-0.022188618628229868",
+                        "-0.99775472955671052",
+                        "0.0032308339172290486",
+                        "0.066895899421523325"
+                    ],
+                    "center": [
+                        "-1.8088847501720047",
+                        "-0.038972937018843641",
+                        "1.9963424691897367"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "670694811",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.48854693538976507",
+                        "0.017187429314997296",
+                        "0.87236831911458756",
+                        "-0.0099395343986945998",
+                        "0.99963147214796333",
+                        "-0.025261146989656542",
+                        "-0.87248100127005979",
+                        "-0.021012190862397924",
+                        "-0.48819605719214515"
+                    ],
+                    "center": [
+                        "-1.5719309569186859",
+                        "-0.033623582557770815",
+                        "3.0190461307962932"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "855031664",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.30662188100688953",
+                        "0.019832844289353654",
+                        "0.95162475817687253",
+                        "-0.0067140716819248563",
+                        "0.99971295656441272",
+                        "-0.022998385132231375",
+                        "-0.95180772392812985",
+                        "-0.013441084950059594",
+                        "-0.30640070807052394"
+                    ],
+                    "center": [
+                        "-1.7200547234817907",
+                        "-0.037530368844502691",
+                        "2.6830941144347684"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "861018912",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.96959791561360154",
+                        "-0.024123688846466793",
+                        "0.24351166229607593",
+                        "0.02680898593921258",
+                        "0.99961077282270028",
+                        "-0.0077188813771821062",
+                        "-0.24323067304653492",
+                        "0.014012512024714201",
+                        "0.96986725338887836"
+                    ],
+                    "center": [
+                        "-0.41182236837503877",
+                        "-0.048788205064719564",
+                        "0.32384888230407327"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "974967230",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.44304549043255154",
+                        "0.018000565937883361",
+                        "0.89631839936112878",
+                        "-0.0094433699940752493",
+                        "0.99964922836014458",
+                        "-0.024743544655582272",
+                        "-0.89644939409346192",
+                        "-0.01942678215463663",
+                        "-0.44272009663508771"
+                    ],
+                    "center": [
+                        "-1.6167101851071743",
+                        "-0.034515506239607009",
+                        "2.9348002337457082"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1009103060",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.94001525916407391",
+                        "-0.039595548827688766",
+                        "-0.33882665929901856",
+                        "0.022312320303235218",
+                        "0.99825051072096593",
+                        "-0.054754709459703711",
+                        "0.34040192846308159",
+                        "0.043910253453662097",
+                        "0.93925418111406367"
+                    ],
+                    "center": [
+                        "0.66536256921992398",
+                        "0.021869390842089446",
+                        "0.35815071828369932"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1133318834",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.34886797667726721",
+                        "0.018826826784826486",
+                        "0.93698275621396798",
+                        "-0.0076828426887033882",
+                        "0.99970714532432237",
+                        "-0.022947712646701032",
+                        "-0.93714038904388841",
+                        "-0.015204413198445562",
+                        "-0.34862116551058764"
+                    ],
+                    "center": [
+                        "-1.6925362719684554",
+                        "-0.037432375505958321",
+                        "2.7612894445790643"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1164625911",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.33403207636639054",
+                        "0.019022739247016123",
+                        "0.9423697296443142",
+                        "-0.0073445541319958852",
+                        "0.99971344076925517",
+                        "-0.022783631622262095",
+                        "-0.94253309198296054",
+                        "-0.014531749269678151",
+                        "-0.33379664285340438"
+                    ],
+                    "center": [
+                        "-1.7023628012034715",
+                        "-0.037717946480385019",
+                        "2.7341863719642614"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1176824930",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.66258845916176068",
+                        "0.010527469200032025",
+                        "0.74890967825091292",
+                        "-0.014364495085772212",
+                        "0.99953869192910594",
+                        "-0.026759383729486511",
+                        "-0.74884590875998935",
+                        "-0.028488168226361243",
+                        "-0.66213157997827887"
+                    ],
+                    "center": [
+                        "-1.3423176509635333",
+                        "-0.030552253857360597",
+                        "3.3397741241830809"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1251708541",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.1326102752338745",
+                        "0.023426854847376749",
+                        "0.99089136507205278",
+                        "-0.0034287193611316283",
+                        "0.99970381612801829",
+                        "-0.024094063638593753",
+                        "-0.99116232716237707",
+                        "-0.0065926088188171025",
+                        "-0.13249067409830551"
+                    ],
+                    "center": [
+                        "-1.7944356929136909",
+                        "-0.036217769162140409",
+                        "2.3637910139453955"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1374134381",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.72545128033444228",
+                        "0.0068005350423409432",
+                        "0.68823992370702836",
+                        "-0.016187977975400388",
+                        "0.99950598724955908",
+                        "-0.026939391629208435",
+                        "-0.68808312668614857",
+                        "-0.030684428875600835",
+                        "-0.72498281124064712"
+                    ],
+                    "center": [
+                        "-1.2298202294688594",
+                        "-0.029581907989602443",
+                        "3.4564773102628674"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1385067319",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.18811151222877684",
+                        "0.021709213616234617",
+                        "0.98190771919318753",
+                        "0.004468278046967665",
+                        "0.99972641754887404",
+                        "-0.022959193064862514",
+                        "-0.9821375124992926",
+                        "0.0087063252328027415",
+                        "0.1879630454175579"
+                    ],
+                    "center": [
+                        "-1.7815210584272894",
+                        "-0.037695807502723493",
+                        "1.7729060001664489"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1397998855",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.37256612917764992",
+                        "0.01885739779574705",
+                        "0.92781403197944556",
+                        "-0.0082638744381092616",
+                        "0.99968646173165587",
+                        "-0.023636552407518479",
+                        "-0.92796885064578205",
+                        "-0.016473517499767849",
+                        "-0.37229348027105041"
+                    ],
+                    "center": [
+                        "-1.6754990207870724",
+                        "-0.036410354243080673",
+                        "2.8047628374070834"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1458215115",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.98837511568412861",
+                        "-0.031274824323074914",
+                        "-0.14878345358253436",
+                        "0.023430687967100156",
+                        "0.99825592306277766",
+                        "-0.054185929275689347",
+                        "0.15021861921138052",
+                        "0.050069925440751568",
+                        "0.98738410408947941"
+                    ],
+                    "center": [
+                        "0.30937127330848924",
+                        "0.019485182583003548",
+                        "0.27343308632074614"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1471568385",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.78858924966670862",
+                        "0.0039917999688313032",
+                        "0.61490735956167097",
+                        "-0.017955720463019728",
+                        "0.99940304476741038",
+                        "-0.029515186129903715",
+                        "-0.61465810611489635",
+                        "-0.034316463142896943",
+                        "-0.7880468215433718"
+                    ],
+                    "center": [
+                        "-1.0931879046971593",
+                        "-0.024937400497382019",
+                        "3.5716738693294681"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1560319651",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.91184248055249673",
+                        "-0.019975591730771576",
+                        "0.41005397985493969",
+                        "0.023389064042657261",
+                        "0.99972096010496503",
+                        "-0.0033096238480264002",
+                        "-0.40987344674067167",
+                        "0.012608634415053763",
+                        "0.91205525051671588"
+                    ],
+                    "center": [
+                        "-0.72304044186278638",
+                        "-0.05686054236402667",
+                        "0.43421123230182213"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1593896531",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.32777175437100359",
+                        "0.019305634201172268",
+                        "0.94455966964752669",
+                        "-0.0073927001051473842",
+                        "0.99970817411469504",
+                        "-0.022998143260223283",
+                        "-0.9447280164267966",
+                        "-0.014520988132800308",
+                        "-0.3275333813246174"
+                    ],
+                    "center": [
+                        "-1.7068056824750035",
+                        "-0.037401904461004963",
+                        "2.7221310711422952"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1599421579",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.99744621588597415",
+                        "-0.013400244395817681",
+                        "0.070153259830766326",
+                        "-0.015413176679563137",
+                        "0.99948258557185243",
+                        "-0.028231102055175632",
+                        "-0.069738657854845662",
+                        "-0.029240290503644583",
+                        "-0.99713666315699534"
+                    ],
+                    "center": [
+                        "-0.082870033220432515",
+                        "-0.017311853137244829",
+                        "3.9409473804560822"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1630359084",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.54249023125851958",
+                        "0.016336499999879316",
+                        "0.83990324904528835",
+                        "-0.010935170133776187",
+                        "0.99958885729624081",
+                        "-0.026505441391169709",
+                        "-0.83999093509586353",
+                        "-0.023563427954126418",
+                        "-0.54208854795118799"
+                    ],
+                    "center": [
+                        "-1.5115317360286671",
+                        "-0.031556221741642868",
+                        "3.1181591406658944"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1757313003",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.039865221404785253",
+                        "0.025457112942262272",
+                        "0.99888072337141054",
+                        "-0.0013875970141735642",
+                        "0.99967302485227139",
+                        "-0.025532684097763669",
+                        "-0.99920410262211878",
+                        "-0.0024039100138814884",
+                        "-0.039816862254219029"
+                    ],
+                    "center": [
+                        "-1.809501346925215",
+                        "-0.034100246970485616",
+                        "2.1936387737873861"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1800357838",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.84794897768501676",
+                        "0.00062781500837097264",
+                        "0.53007748215826933",
+                        "-0.019510290056139183",
+                        "0.99928474714840343",
+                        "-0.032393559521569019",
+                        "-0.52971867989043042",
+                        "-0.037810051109028971",
+                        "-0.84733023090780391"
+                    ],
+                    "center": [
+                        "-0.93523564987593832",
+                        "-0.019766748272497345",
+                        "3.6809413980530223"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1839230745",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.60136868811915123",
+                        "0.013997010932471493",
+                        "0.79884903745001001",
+                        "-0.012527778552863494",
+                        "0.99955842495683422",
+                        "-0.026944570182942128",
+                        "-0.79887342909523629",
+                        "-0.026211424661192188",
+                        "-0.60092778726137241"
+                    ],
+                    "center": [
+                        "-1.4351207316475847",
+                        "-0.030671319345998403",
+                        "3.2263554514963344"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "1996197185",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.90157020151255707",
+                        "-0.0038149087450437096",
+                        "0.43261601705886288",
+                        "-0.020971835551087781",
+                        "0.99917094106253612",
+                        "-0.034894306839719759",
+                        "-0.43212423428711499",
+                        "-0.040532419215652198",
+                        "-0.90090275231808525"
+                    ],
+                    "center": [
+                        "-0.75385335478111681",
+                        "-0.015136949281854929",
+                        "3.7792254410439421"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "2010690355",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.58831453734638772",
+                        "0.0088292960900839199",
+                        "0.80858397750478528",
+                        "0.016817037867131936",
+                        "0.99959052936652415",
+                        "-0.023150828022496139",
+                        "-0.80845729162663937",
+                        "0.027217956045694738",
+                        "0.58792515721341054"
+                    ],
+                    "center": [
+                        "-1.4668664013676787",
+                        "-0.03586863794503338",
+                        "1.0283195566722525"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "2066217026",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.45418590527975955",
+                        "0.013919860610679843",
+                        "0.89079818192774984",
+                        "0.012193951440272594",
+                        "0.99968714159491168",
+                        "-0.02183864643395244",
+                        "-0.89082347914358284",
+                        "0.020781155174199373",
+                        "0.4538740712974782"
+                    ],
+                    "center": [
+                        "-1.618386153780341",
+                        "-0.038703196985895513",
+                        "1.2784990094657076"
+                    ]
+                },
+                "locked": "0"
+            }
+        },
+        {
+            "poseId": "2125114409",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.84293597262805053",
+                        "-0.00204926556289187",
+                        "0.53800998741682771",
+                        "-0.029236788254283202",
+                        "0.99868961064103823",
+                        "-0.042003235711369588",
+                        "-0.53721890906982839",
+                        "-0.051135722428683958",
+                        "-0.84189131224257208"
+                    ],
+                    "center": [
+                        "-0.65279397607129597",
+                        "0.0015423830501060873",
+                        "3.607904472558745"
+                    ]
+                },
+                "locked": "0"
+            }
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "PrepareDenseScene_1",
+    "nodeType": "PrepareDenseScene",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_prepareDenseScene  --input \"C:/Users/Alien/Desktop/MeshroomCache/StructureFromMotion/f2dc9f8b462a3c00cadee99fe065bd40fa373890/sfm.abc\" --outputFileType exr --saveMetadata True --saveMatricesTxtFiles False --evCorrection False --verboseLevel info --output \"C:/Users/Alien/Desktop/MeshroomCache/PrepareDenseScene/a0f6b549f3156c6540052339fb729101acdc1c34\" --rangeStart 0 --rangeSize 40",
+    "env": null,
+    "startDateTime": "2020-05-18 03:36:49.607315",
+    "endDateTime": "2020-05-18 03:36:53.600792",
+    "elapsedTime": 3.9934780597686768,
+    "hostname": "DESKTOP-T8T7I7E",
+    "sessionUid": "6ca6e3e2-989e-11ea-8488-38d547483d26",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:03.993478"
+}

@@ -1,0 +1,18 @@
+{
+    "status": "SUCCESS",
+    "execMode": "LOCAL",
+    "nodeName": "Meshing_1",
+    "nodeType": "Meshing",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_meshing  --input \"C:/Users/Alien/Desktop/MeshroomCache/StructureFromMotion/429da1ad7bec1171ecbb880898f48a669c50d935/sfm.abc\" --depthMapsFolder \"C:/Users/Alien/Desktop/MeshroomCache/DepthMap/dd77c088cc8ce145d16d694d756db7b0ac5eb39a\" --depthMapsFilterFolder \"C:/Users/Alien/Desktop/MeshroomCache/DepthMapFilter/1b11cdbbc6e0ff35c00ef82c78471ddd4831dfdf\" --estimateSpaceFromSfM True --estimateSpaceMinObservations 3 --estimateSpaceMinObservationAngle 10 --maxInputPoints 50000000 --maxPoints 5000000 --maxPointsPerVoxel 1000000 --minStep 2 --partitioning singleBlock --repartition multiResolution --angleFactor 15.0 --simFactor 15.0 --pixSizeMarginInitCoef 2.0 --pixSizeMarginFinalCoef 4.0 --voteMarginFactor 4.0 --contributeMarginFactor 2.0 --simGaussianSizeInit 10.0 --simGaussianSize 10.0 --minAngleThreshold 1.0 --refineFuse True --addLandmarksToTheDensePointCloud False --colorizeOutput False --saveRawDensePointCloud False --verboseLevel info --outputMesh \"C:/Users/Alien/Desktop/MeshroomCache/Meshing/140f9ceb33e46c75ccfc580a4e22059fbfbaeab4/mesh.obj\" --output \"C:/Users/Alien/Desktop/MeshroomCache/Meshing/140f9ceb33e46c75ccfc580a4e22059fbfbaeab4/densePointCloud.abc\" ",
+    "env": null,
+    "startDateTime": "2020-05-18 03:25:26.893075",
+    "endDateTime": "2020-05-18 03:26:04.607262",
+    "elapsedTime": 37.71418738365173,
+    "hostname": "DESKTOP-T8T7I7E",
+    "sessionUid": "5eba7186-989d-11ea-8707-38d547483d26",
+    "returnCode": 0,
+    "elapsedTimeStr": "0:00:37.714187"
+}
