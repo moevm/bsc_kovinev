@@ -231,6 +231,13 @@ class CompareDialog(QtWidgets.QDialog, ui.comparison.Ui_Dialog):
         self.table_metrics.setModel(TableModel(data))
         self.table_layout.addWidget(self.table_metrics)
 
+        output = MeshlabRunner().colorize([current.filename, second.filename])
+
+        m = Model3D(output)
+        widget = ModelWidget(self, m)
+        clean_child(self.verticalLayout_2)
+        self.verticalLayout_2.addWidget(widget)
+
 
 def clean_child(layout):
     for i in reversed(range(layout.count())):
