@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>526</width>
-    <height>539</height>
+    <width>660</width>
+    <height>540</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -39,9 +39,9 @@
         </spacer>
        </item>
        <item>
-        <widget class="QCheckBox" name="checkBox_comparison">
+        <widget class="QPushButton" name="compare_button">
          <property name="text">
-          <string>Add to compare</string>
+          <string>Compare</string>
          </property>
         </widget>
        </item>
@@ -184,22 +184,7 @@
     </layout>
    </item>
    <item>
-    <layout class="QHBoxLayout" name="horizontalLayout_3">
-     <item>
-      <widget class="QLabel" name="label_progress">
-       <property name="text">
-        <string>Progress</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QProgressBar" name="progressBar_rendering">
-       <property name="value">
-        <number>24</number>
-       </property>
-      </widget>
-     </item>
-    </layout>
+    <layout class="QHBoxLayout" name="horizontalLayout_3"/>
    </item>
   </layout>
  </widget>

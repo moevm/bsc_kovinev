@@ -3,7 +3,7 @@ import math
 from QPanda3D.Helpers.Env_Grid_Maker import *
 from QPanda3D.Panda3DWorld import Panda3DWorld
 
-from benchmark.panda3dwidget.CameraController import CameraController
+from panda3dwidget.CameraController import CameraController
 
 
 class ModelView(Panda3DWorld):
