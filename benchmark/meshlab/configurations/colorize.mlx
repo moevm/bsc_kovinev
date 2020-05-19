@@ -1,3 +1,4 @@
+<FilterScript>
  <filter name="Hausdorff Distance">
   <Param value="0" tooltip="The mesh whose surface is sampled. For each sample we search the closest point on the Target Mesh." name="SampledMesh" type="RichMesh" description="Sampled Mesh"/>
   <Param value="1" tooltip="The mesh that is sampled for the comparison." name="TargetMesh" type="RichMesh" description="Target Mesh"/>
