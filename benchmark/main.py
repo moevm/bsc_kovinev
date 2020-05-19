@@ -39,7 +39,7 @@ class MainWindowApp(QtWidgets.QMainWindow, ui.mainwindow.Ui_MainWindow):
         self.actionCheck_exists.triggered.connect(self.check_exists)
 
     def add_model(self):
-        fname = QFileDialog.getOpenFileName(self, 'Open file', '~', "Model files (*.obj)")[0]
+        fname = QFileDialog.getOpenFileName(self, 'Open file', '~', "Model files (*.ply)")[0]
         if fname:
             m = Model3D(fname)
             widget = ModelWidget(self, m)
