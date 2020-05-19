@@ -6,7 +6,7 @@ class ConfigSoftware:
 
 
 class ConfigSoftwareMeshroom(ConfigSoftware):
-    config_path = '../config/yaml/meshroom.yaml'
+    config_path = './config/yaml/meshroom.yaml'
     config = YAML_Reader.read(config_path)
 
 
