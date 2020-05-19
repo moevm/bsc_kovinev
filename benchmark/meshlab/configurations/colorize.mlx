@@ -1,0 +1,18 @@
+ <filter name="Hausdorff Distance">
+  <Param value="0" tooltip="The mesh whose surface is sampled. For each sample we search the closest point on the Target Mesh." name="SampledMesh" type="RichMesh" description="Sampled Mesh"/>
+  <Param value="1" tooltip="The mesh that is sampled for the comparison." name="TargetMesh" type="RichMesh" description="Target Mesh"/>
+  <Param value="false" tooltip="Save the position and distance of all the used samples on both the two surfaces, creating two new layers with two point clouds representing the used samples." name="SaveSample" type="RichBool" description="Save Samples"/>
+  <Param value="true" tooltip="For the search of maxima it is useful to sample vertices and edges of the mesh with a greater care. It is quite probably the the farthest points falls along edges or on mesh vertexes, and with uniform montecarlo sampling approachesthe probability of taking a sample over a vertex or an edge is theoretically null.&lt;br>On the other hand this kind of sampling could make the overall sampling distribution slightly biased and slightly affects the cumulative results." name="SampleVert" type="RichBool" description="Sample Vertexes"/>
+  <Param value="true" tooltip="See the above comment." name="SampleEdge" type="RichBool" description="Sample Edges"/>
+  <Param value="false" tooltip="See the above comment." name="SampleFauxEdge" type="RichBool" description="Sample FauxEdge"/>
+  <Param value="true" tooltip="See the above comment." name="SampleFace" type="RichBool" description="Sample Faces"/>
+  <Param value="9999" tooltip="The desired number of samples. It can be smaller or larger than the mesh size, and according to the choosed sampling strategy it will try to adapt." name="SampleNum" type="RichInt" description="Number of samples"/>
+  <Param min="0" value="999.0" tooltip="Sample points for which we do not find anything whithin this distance are rejected and not considered neither for averaging nor for max." name="MaxDist" type="RichAbsPerc" description="Max Distance" max="468.287"/>
+ </filter>
+ <filter name="Colorize by vertex Quality">
+  <Param value="0" tooltip="The value that will be mapped with the lower end of the scale (blue)" name="minVal" type="RichFloat" description="Min"/>
+  <Param value="1" tooltip="The value that will be mapped with the upper end of the scale (red)" name="maxVal" type="RichFloat" description="Max"/>
+  <Param min="0" value="0" tooltip="If not zero this value will be used for a percentile cropping of the quality values.&lt;br> If this parameter is set a value P to &lt;i>P&lt;/i> then the two values &lt;i>V_min,V_max&lt;/i> for which &lt;i>P&lt;/i>% of the vertices have a quality &lt;b>lower or greater than &lt;i>V_min,V_max&lt;/i> are used as min/max values for clamping.&lt;br>&lt;br> The automated percentile cropping is very useful for automatically discarding outliers." name="perc" type="RichDynamicFloat" description="Percentile Crop [0..100]" max="100"/>
+  <Param value="false" tooltip="If true the min max range will be enlarged to be symmertic (so that green is always Zero)" name="zeroSym" type="RichBool" description="Zero Simmetric"/>
+ </filter>
+</FilterScript>

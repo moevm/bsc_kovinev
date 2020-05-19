@@ -1,7 +1,11 @@
+import os
 import pathlib
 import re
 
 import sys
+
+from utils.ply import ConvertToPly
+
 sys.path.extend(['.', '..', '../..'])
 from utils.subprocessor import Subprocessor
 
@@ -48,6 +52,10 @@ class MeshlabRunner:
             cmd += f" -s {path}/holes.mlx"
         elif type == "DISTANCE":
             cmd += f" -s {path}/distance.mlx"
+        elif type == "COLORIZE":
+            cmd += f" -om vc vn vt fc wt -s {path}/colorize.mlx"
+
+        print(cmd)
         return cmd
 
     def count_holes(self, obj):
@@ -60,6 +68,23 @@ class MeshlabRunner:
         Subprocessor().run(cmd, self._callback_distance)
         return self._distance
 
+    def colorize(self, objs):
+        #objs = [ConvertToPly(o).name() for o in objs]
+        output = self.generate_temp_file()
+        cmd = self.build_command(input=objs, output=[output], type="COLORIZE")
+
+        Subprocessor().run(cmd)
+        return output
+
+    def generate_temp_file(self):
+        DIR = "./temp_models"
+        if not os.path.exists(DIR):
+            os.makedirs(DIR)
+        return f"{DIR}/{self.random_string()}"
+
+    def random_string(self):
+        import string, random
+        return ''.join([random.choice(string.ascii_letters + string.digits) for _ in range(10)]) + '.ply'
 
 
 
