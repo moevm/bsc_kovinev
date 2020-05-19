@@ -14,6 +14,7 @@ class Model3D:
         self.normals_ = 0
         self.tris_ = 0
         self.texture_memory_ = ""
+        self.file_short_ = filename.split("/")[-1]
 
     @property
     def filename(self):
@@ -45,4 +46,8 @@ class Model3D:
 
     @property
     def texture_memory(self):
-        return self.texture_
+        return self.texture_memory_
+
+    @property
+    def short_filename(self):
+        return self.file_short_

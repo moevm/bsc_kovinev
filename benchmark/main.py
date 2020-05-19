@@ -1,29 +1,36 @@
 import sys
 
+import pandas as pd
 from PyQt5 import QtWidgets
 from PyQt5.QtWidgets import QFileDialog
 
-import benchmark.ui.add_software
-import benchmark.ui.mainwindow
-import benchmark.ui.model
-import benchmark.ui.install_software_dialog
+import ui.add_software
+import ui.mainwindow
+import ui.model
+import ui.install_software_dialog
+import ui.comparison
+from components.Table import TableModel
+from meshlab.runner import MeshlabRunner
 
-from benchmark.model.model3D import Model3D
-from benchmark.panda3dwidget.ModelView import ModelView
-from benchmark.panda3dwidget.PandaWidget import PandaWidget
+from model.model3D import Model3D
+from panda3dwidget.ModelView import ModelView
+from panda3dwidget.PandaWidget import PandaWidget
 
-from benchmark.utils.requeter import Requester
-from benchmark.utils.unzipper import Unzipper
-from benchmark.config.software import *
-from benchmark.software.command_builder import CommandBuilder
-from benchmark.utils.subprocessor import Subprocessor
+from utils.requeter import Requester
+from utils.unzipper import Unzipper
+from config.software import *
+from software.command_builder import CommandBuilder
+from utils.subprocessor import Subprocessor
 
-class MainWindowApp(QtWidgets.QMainWindow, benchmark.ui.mainwindow.Ui_MainWindow):
+
+class MainWindowApp(QtWidgets.QMainWindow, ui.mainwindow.Ui_MainWindow):
     def __init__(self):
         super().__init__()
         self.setupUi(self)
         self.init_buttons()
         self.init_configs()
+
+        self.list_of_models = []
 
     def init_buttons(self):
         self.actionAdd_Software.triggered.connect(self.f)
@@ -32,12 +39,13 @@ class MainWindowApp(QtWidgets.QMainWindow, benchmark.ui.mainwindow.Ui_MainWindow
         self.actionCheck_exists.triggered.connect(self.check_exists)
 
     def add_model(self):
-        fname = QFileDialog.getOpenFileName(self, 'Open file', '/home', "Model files (*.obj)")[0]
-        print("[+] Filename passed from QFileDialog:", fname)
+        fname = QFileDialog.getOpenFileName(self, 'Open file', '~', "Model files (*.obj)")[0]
         if fname:
             m = Model3D(fname)
             widget = ModelWidget(self, m)
             self.layout_widgets.addWidget(widget)
+
+            self.list_of_models.append(m)
 
     def f(self):
         dialog = AddSoftwareDialog(self)
@@ -51,24 +59,21 @@ class MainWindowApp(QtWidgets.QMainWindow, benchmark.ui.mainwindow.Ui_MainWindow
                 "location": "/home/alien/Desktop/MeshroomMeshroom-2019.2.0-linux",
                 "output": "/home/alien/Desktop/meshroom_output",
                 "input": "/home/alien/Downloads/dataset_monstree-master/full/"
-                }
             }
-
+        }
 
     def check_exists(self):
-        print(self.configs["Meshroom"])
         builder = CommandBuilder(self.configs["Meshroom"])
         command = builder.buildStepViaConfig(ConfigSoftwareMeshroom.config, 0)
-        print(command)
+
         def f(c):
             print(c)
+
         time = Subprocessor().run(command, callback=f)
         print(time)
 
 
-
-
-class AddSoftwareDialog(QtWidgets.QDialog, benchmark.ui.add_software.Ui_Dialog):
+class AddSoftwareDialog(QtWidgets.QDialog, ui.add_software.Ui_Dialog):
     def __init__(self, mainwindow):
         super().__init__()
         self.setupUi(self)
@@ -95,11 +100,12 @@ class AddSoftwareDialog(QtWidgets.QDialog, benchmark.ui.add_software.Ui_Dialog):
         self.mainwindow.layout_widgets.addWidget(widget)
 
 
-class ModelWidget(QtWidgets.QWidget, benchmark.ui.model.Ui_Form):
+class ModelWidget(QtWidgets.QWidget, ui.model.Ui_Form):
     def __init__(self, parent, model):
         super().__init__()
         self.parent = parent
         self.setupUi(self)
+        self.model = model
 
         self.label_object_name.setText("Model: " + model.filename.split("/")[-1])
         self.modelView = ModelView(model)
@@ -112,14 +118,19 @@ class ModelWidget(QtWidgets.QWidget, benchmark.ui.model.Ui_Form):
         self.slider_rotate_x.valueChanged.connect(self.slider_changed_x)
         self.slider_rotate_y.valueChanged.connect(self.slider_changed_y)
 
+        self.compare_button.clicked.connect(self.compare)
+
     def slider_changed_x(self):
         self.modelView.camera_controller.rotatePhi(self.slider_rotate_x.value())
 
     def slider_changed_y(self):
         self.modelView.camera_controller.rotateTheta(self.slider_rotate_y.value())
 
+    def compare(self):
+        dialog = CompareDialog(self, self.parent.list_of_models)
 
-class InstallSoftwareDialog(QtWidgets.QDialog, benchmark.ui.install_software_dialog.Ui_Dialog):
+
+class InstallSoftwareDialog(QtWidgets.QDialog, ui.install_software_dialog.Ui_Dialog):
     def __init__(self, mainwindow):
         super().__init__()
         self.setupUi(self)
@@ -158,6 +169,72 @@ class InstallSoftwareDialog(QtWidgets.QDialog, benchmark.ui.install_software_dia
     def set_progress_bar(self, value):
         self.progress.setValue(value * 100)
 
+
+class CompareDialog(QtWidgets.QDialog, ui.comparison.Ui_Dialog):
+    def __init__(self, model_widget, list_of_models):
+        super().__init__()
+        self.setupUi(self)
+
+        self.model_widget = model_widget
+        self.list_of_models = list_of_models
+
+        self.comboBox_select.clear()
+        self.comboBox_select.addItems(list(map(lambda x: x.short_filename, self.list_of_models)))
+
+        self.compare_button.clicked.connect(self.compare)
+        self.label_left.setText(self.model_widget.model.short_filename)
+
+        self.show()
+        self.exec_()
+
+    def compare(self):
+        clean_child(self.table_layout)
+        clean_child(self.metrics_layout)
+
+        current = self.model_widget.model
+
+        selected = self.comboBox_select.currentText()
+        second = list(filter(lambda x: x.short_filename == selected, self.list_of_models))[0]
+
+        self.label_left.setText(current.short_filename)
+        self.label_right.setText(second.short_filename)
+
+        current_count_holes = MeshlabRunner().count_holes(current.filename)
+        second_count_holes = MeshlabRunner().count_holes(current.filename)
+
+        self.table_common = QtWidgets.QTableView()
+        data = pd.DataFrame([
+            [current.texture_memory, second.texture_memory],
+            [current.vertices, second.vertices],
+            [current.normals, second.normals],
+            [current.tris, second.tris],
+            [current_count_holes, second_count_holes],
+        ], columns=[current.short_filename, second.short_filename],
+            index=['Texture', 'Vertices', 'Normals', 'Tris', 'Count Holes'])
+
+        self.table_common.setModel(TableModel(data))
+        self.table_layout.addWidget(self.table_common)
+
+        self.label_down.setText("Metrics:")
+
+        metrics = MeshlabRunner().distance([current.filename, second.filename])
+
+        self.table_metrics = QtWidgets.QTableView()
+        data = pd.DataFrame([
+            [metrics["min"]],
+            [metrics["max"]],
+            [metrics["mean"]],
+            [metrics["RMS"]],
+        ], columns=["Metric"],
+            index=['Min', 'Max', 'Mean', 'RMS'])
+
+        self.table_metrics.setModel(TableModel(data))
+        self.table_layout.addWidget(self.table_metrics)
+
+
+def clean_child(layout):
+    for i in reversed(range(layout.count())):
+        layout.itemAt(i).widget().setParent(None)
 
 def main():
     app = QtWidgets.QApplication(sys.argv)

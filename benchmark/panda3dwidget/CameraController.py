@@ -37,13 +37,10 @@ class CameraController(DirectObject):
         self.target.reparentTo(parent)
 
     def rotateTheta(self, value):
-        print(f"Theta: {value}")
         self._rotateTheta(value)
         self.updateCamera(self.mousePrevX, self.mousePrevY)
 
     def rotatePhi(self, value):
-        print(f"Phi: {value}")
-
         self._rotatePhi(math.radians(value))
         self.updateCamera(self.mousePrevX, self.mousePrevY)
 

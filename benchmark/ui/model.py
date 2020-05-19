@@ -12,7 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(526, 539)
+        Form.resize(660, 540)
         self.verticalLayout_7 = QtWidgets.QVBoxLayout(Form)
         self.verticalLayout_7.setObjectName("verticalLayout_7")
         self.verticalLayout_6 = QtWidgets.QVBoxLayout()
@@ -24,9 +24,9 @@ class Ui_Form(object):
         self.horizontalLayout_2.addWidget(self.label_object_name)
         spacerItem = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.horizontalLayout_2.addItem(spacerItem)
-        self.checkBox_comparison = QtWidgets.QCheckBox(Form)
-        self.checkBox_comparison.setObjectName("checkBox_comparison")
-        self.horizontalLayout_2.addWidget(self.checkBox_comparison)
+        self.compare_button = QtWidgets.QPushButton(Form)
+        self.compare_button.setObjectName("compare_button")
+        self.horizontalLayout_2.addWidget(self.compare_button)
         self.button_disable = QtWidgets.QPushButton(Form)
         self.button_disable.setMaximumSize(QtCore.QSize(20, 16777215))
         self.button_disable.setObjectName("button_disable")
@@ -85,13 +85,6 @@ class Ui_Form(object):
         self.verticalLayout_7.addLayout(self.verticalLayout_6)
         self.horizontalLayout_3 = QtWidgets.QHBoxLayout()
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
-        self.label_progress = QtWidgets.QLabel(Form)
-        self.label_progress.setObjectName("label_progress")
-        self.horizontalLayout_3.addWidget(self.label_progress)
-        self.progressBar_rendering = QtWidgets.QProgressBar(Form)
-        self.progressBar_rendering.setProperty("value", 24)
-        self.progressBar_rendering.setObjectName("progressBar_rendering")
-        self.horizontalLayout_3.addWidget(self.progressBar_rendering)
         self.verticalLayout_7.addLayout(self.horizontalLayout_3)
 
         self.retranslateUi(Form)
@@ -101,12 +94,11 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
         self.label_object_name.setText(_translate("Form", "Model"))
-        self.checkBox_comparison.setText(_translate("Form", "Add to compare"))
+        self.compare_button.setText(_translate("Form", "Compare"))
         self.button_disable.setText(_translate("Form", "X"))
         self.label_rotate_x.setText(_translate("Form", "Rotate X"))
         self.label_rotate_y.setText(_translate("Form", "Rotate Y"))
         self.label_rotate_z.setText(_translate("Form", "Rotate Z"))
         self.label_model_info.setText(_translate("Form", "Info:"))
-        self.label_progress.setText(_translate("Form", "Progress"))
 
 

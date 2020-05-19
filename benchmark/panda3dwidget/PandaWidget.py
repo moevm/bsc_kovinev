@@ -7,7 +7,7 @@ from direct.showbase.MessengerGlobal import messenger
 from direct.task.TaskManagerGlobal import taskMgr
 from panda3d.core import Texture
 
-from benchmark.utils.parsers import sceneGraphAnalyzerMeterParser
+from utils.parsers import sceneGraphAnalyzerMeterParser
 
 
 class QPanda3DSynchronizer(QTimer):
