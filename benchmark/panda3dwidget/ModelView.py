@@ -18,7 +18,7 @@ class ModelView(Panda3DWorld):
         self.set_collisions_handlers()
         self.set_light()
         self.draw_model(self.model3D.filename)
-        self.draw_grid()
+        #self.draw_grid()
 
         self.setFrameRateMeter(True)
         self.setSceneGraphAnalyzerMeter(True)
@@ -39,14 +39,9 @@ class ModelView(Panda3DWorld):
 
     def set_light(self):
         # Lights
-        dlight = DirectionalLight("dlight")
-        dlnp = self.render.attachNewNode(dlight)
-        dlnp.setHpr(180.0, -70.0, 0)
-        self.render.setLight(dlnp)
-
         alight = AmbientLight("alight")
         alnp = self.render.attachNewNode(alight)
-        alight.setColor(VBase4(0.4, 0.4, 0.4, 1))
+        alight.setColor(VBase4(0.8, 0.8, 0.8, 0))
         self.render.setLight(alnp)
 
     def draw_model(self, path_model):
