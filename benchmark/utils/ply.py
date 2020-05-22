@@ -1,14 +1,16 @@
+import meshio
+
 from utils.d3.model import tools as mt
 
 
 class ConvertToPly:
     def __init__(self, file):
         self.output = self.generete_name(file)
-        result = mt.convert(file, self.output, None)
+        self.save_as_ply(file)
 
-        with open(self.output, 'w') as f:
-            f.write(result)
-
+    def save_as_ply(self, file):
+        mesh = meshio.read(file)
+        mesh.write(self.output)
 
     def generete_name(self, file):
         return file.replace('.obj', '.ply')
