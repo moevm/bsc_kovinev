@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>159</width>
-    <height>123</height>
+    <width>216</width>
+    <height>157</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -33,7 +33,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>159</width>
+     <width>216</width>
      <height>22</height>
     </rect>
    </property>
@@ -41,48 +41,17 @@
     <property name="title">
      <string>Add</string>
     </property>
-    <addaction name="actionAdd_Software"/>
     <addaction name="actionAdd_Model"/>
    </widget>
-   <widget class="QMenu" name="menuInstall">
-    <property name="title">
-     <string>Download</string>
-    </property>
-    <addaction name="actionInstall_Software"/>
-   </widget>
    <addaction name="menuAdd"/>
-   <addaction name="menuInstall"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionAdd_Software">
-   <property name="text">
-    <string>Add Software</string>
-   </property>
-   <property name="shortcut">
-    <string>Ctrl+Shift+S</string>
-   </property>
-  </action>
-  <action name="actionCheck_exists">
-   <property name="text">
-    <string>Check exists</string>
-   </property>
-  </action>
-  <action name="actionCheck_build">
-   <property name="text">
-    <string>Check build</string>
-   </property>
-  </action>
   <action name="actionAdd_Model">
    <property name="text">
     <string>Add Model</string>
    </property>
    <property name="shortcut">
     <string>Ctrl+Shift+M</string>
-   </property>
-  </action>
-  <action name="actionInstall_Software">
-   <property name="text">
-    <string>Install Software</string>
    </property>
   </action>
  </widget>

@@ -44,6 +44,8 @@ class Ui_Form(object):
         self.verticalLayout_4.addWidget(self.label_rotate_x)
         self.slider_rotate_x = QtWidgets.QSlider(Form)
         self.slider_rotate_x.setMaximumSize(QtCore.QSize(200, 16777215))
+        self.slider_rotate_x.setMaximum(360)
+        self.slider_rotate_x.setSingleStep(1)
         self.slider_rotate_x.setOrientation(QtCore.Qt.Horizontal)
         self.slider_rotate_x.setObjectName("slider_rotate_x")
         self.verticalLayout_4.addWidget(self.slider_rotate_x)

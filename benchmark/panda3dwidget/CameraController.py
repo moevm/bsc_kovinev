@@ -41,7 +41,7 @@ class CameraController(DirectObject):
         self.updateCamera(self.mousePrevX, self.mousePrevY)
 
     def rotatePhi(self, value):
-        self._rotatePhi(math.radians(value))
+        self._rotatePhi_for_scroll(math.radians(value))
         self.updateCamera(self.mousePrevX, self.mousePrevY)
 
     def mouse_press(self, button, x, y):
@@ -118,3 +118,11 @@ class CameraController(DirectObject):
             self.phi = 0.1
         if self.phi > math.pi - 0.1:
             self.phi = math.pi - 0.1
+
+
+    def _rotatePhi_for_scroll(self, dPhi):
+        self.phi += dPhi
+        if self.phi < 0.1:
+            self.phi = 0.1
+        if self.phi > math.pi - 0.1:
+            self.phi = self.phi - math.pi
