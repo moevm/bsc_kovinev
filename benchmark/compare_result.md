@@ -90,30 +90,30 @@ Meshroom
 
 | Software	| Name	| Max	| Mean	| RMS	|
 |---|---|---|---|---|
-|Meshroom	|Original	|29.392044	|0.618741	|0.728786	|
-|Meshroom	|720x540	|28.403566	|0.899285	|1.13757	|
-|Meshroom	|320x240	|-	|-	|-	|
-|Meshroom	|Medium Dark	|29.500546	|0.472093	|0.723413	|
-|Meshroom	|Extra Dark    |29.784958	|0.856278	|1.41657	|
-|Meshroom	|Medium Distance	|29.612806	|0.585516	|0.880004	|
-|Meshroom	|Far Distance	|25.798145	|0.719032	|0.925432	|
-|Meshroom	|Medium Snow	|29.361553	|0.375846	|0.494956   |
-|Meshroom	|Extra Snow	|29.494078	|1.253168	|1.716749	|
+|Pix4D	|Original	|29.392044	|0.618741	|0.728786	|
+|Pix4D	|720x540	|28.403566	|0.899285	|1.13757	|
+|Pix4D	|320x240	|29.881527	|1.240908	|1.710691	|
+|Pix4D	|Medium Dark	|29.500546	|0.472093	|0.723413	|
+|Pix4D	|Extra Dark    |29.784958	|0.856278	|1.41657	|
+|Pix4D	|Medium Distance	|29.612806	|0.585516	|0.880004	|
+|Pix4D	|Far Distance	|25.798145	|0.719032	|0.925432	|
+|Pix4D	|Medium Snow	|29.361553	|0.375846	|0.494956   |
+|Pix4D	|Extra Snow	|29.494078	|1.253168	|1.716749	|
 
 
 Pix4D
 
 | Software	| Name	| Max	| Mean	| RMS	|
 |---|---|---|---|---|
-|Pix4D	|Original	|29.85314	|0.374198	|0.571769	
-|Pix4D	|720x540	|29.532616	|1.203915	|1.734629	|
-|Pix4D	|320x240	|29.881527	|1.240908	|1.710691	|
-|Pix4D	|Medium Dark	|29.858521	|0.635837	|0.977292	|
-|Pix4D	|Extra Dark	|29.503143	|0.905954	|1.224313	|
-|Pix4D	|Medium Distance	|29.50379	|0.461862	|0.594002	|
-|Pix4D	|Far Distance	|29.5536	|0.585682	|0.83157	|
-|Pix4D	|Medium Snow	|29.532618	|0.701103	|0.924217	|
-|Pix4D	|Extra Snow	|29.784925	|2.147317	|3.447384	|
+|Meshroom	|Original	|29.85314	|0.374198	|0.571769	
+|Meshroom	|720x540	|29.532616	|1.203915	|1.734629	|
+|Meshroom	|320x240	|-	|-	|-	|
+|Meshroom	|Medium Dark	|29.858521	|0.635837	|0.977292	|
+|Meshroom	|Extra Dark	|29.503143	|0.905954	|1.224313	|
+|Meshroom	|Medium Distance	|29.50379	|0.461862	|0.594002	|
+|Meshroom	|Far Distance	|29.5536	|0.585682	|0.83157	|
+|Meshroom	|Medium Snow	|29.532618	|0.701103	|0.924217	|
+|Meshroom	|Extra Snow	|29.784925	|2.147317	|3.447384	|
 
 
 Agisoft MetaShape
