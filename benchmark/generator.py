@@ -70,6 +70,7 @@ def callback_distance(input):
         })
 
 
+
 for dirpath, dnames, fnames in os.walk(start_path):
     for f in fnames:
         if f.endswith(".ply"):
@@ -83,7 +84,7 @@ models_new = []
 for model in tqdm(models):
     result = []
     model_name = model["name"]
-    cmd = f"meshlabserver -i {model_name} -i {original} -s {DISTANCE_FILE}"
+    cmd = f"meshlabserver -i {original}  -i {model_name} -s {DISTANCE_FILE}"
     Subprocessor().run(cmd, callback_distance)
     models_new.append({
         "software": model["software"],
@@ -114,7 +115,6 @@ for type in types:
     for m in models_filtered:
         m["name"] = generate_name(get_parent(m['name']))
         a.append(m)
-
 
     print(type)
     print()
