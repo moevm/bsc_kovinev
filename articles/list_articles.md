@@ -37,3 +37,35 @@ FROM LIDAR POINT CLOUDS AND SINGLE-VIEW PERSPECTIVE IMAGERY](https://www.int-arc
 16.03.2020
 * Metrics - [A comparison of perceptually-based metrics for
 objective evaluation of geometry processing](http://vcg.isti.cnr.it/Publications/2010/LC10/Lavoue-Corsini-preprint.pdf)
+
+
+07.06.2020
+* [Описание размеров и качества](https://www.agisoft.com/pdf/tips_and_tricks/PhotoScan_Memory_Requirements.pdf)
+* [Трехмерная фотограмметрия, или От фотографии к 3D-модели](https://sapr.ru/article/25136)
+* [3D Building Reconstruction Using Dense Photogrammetric Point Cloud](https://www.researchgate.net/publication/307530366_3D_Building_Reconstruction_Using_Dense_Photogrammetric_Point_Cloud)
+* [A Guide to Camera Settings for Photogrammetry Routes in UgCS](https://diydrones.com/profiles/blogs/a-guide-to-camera-settings-for-photogrammetry-routes-in-ugcs)
+* [ТРЁМЕРНАЯ РЕКОНСТРУКЦИЯ СЦЕНЫ ПО НЕСКОЛЬКИМ ИЗОБРАЖЕНИЯМ](https://cyberleninka.ru/article/n/tryohmernaya-rekonstruktsiya-stseny-po-neskolkim-izobrazheniyam/viewer)
+* [‘Structure-from-Motion’ photogrammetry: A low-cost, effective tool for geoscience applications](https://www.researchgate.net/publication/256843452_)
+* [EVALUATIONS OF THREE-DIMENSIONAL BUILDING MODEL RECONSTRUCTION
+FROM LIDAR POINT CLOUDS AND SINGLE-VIEW PERSPECTIVE IMAGERY](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-5/597/2014/isprsarchives-XL-5-597-2014.pdf)
+* [ARCHITECTURAL PHOTOGRAMMETRY:
+Basic theory, Procedures, Tools ](https://www.isprs.org/commission5/tutorial02/gruss/tut_gruss.pdf)
+* [Low-Cost Three-Dimensional Modeling of Crop Plants](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6651267/)
+* [2017 GSA: Introduction to Structure from Motion (SfM) Photogrammetry for Earth Science Research and Education short course](file:///D:/Downloads/nissen-GSA-sept-2016-SfM-lecture1-Intro.pdf)
+* [3DF Zephyr Documentation](https://www.3dflow.net/technology/documents/3df-zephyr-documentation/)
+* [TERRESTRIAL PHOTOGRAMMETRY APPLIED TO ARCHITECTURAL RESTORATION AND
+ARCHAEOLOGICAL SURVEYS](https://www.isprs.org/proceedings/XXXIII/congress/part5/401_XXXIII-part5.pdf)
+* [Photogrammetric Process](https://www.e-education.psu.edu/geog892/node/646)
+* [Photogrammetry with the smartphone](https://www.pix-pro.com/photogrammetry-with-the-smartphone/)
+* [The Basics of Photogrammetry](https://www.geodetic.com/v-stars/what-is-photogrammetry/)
+* [Laser Scanning: Theory and Applications](https://books.google.ru/books?id=IuaODwAAQBAJ&pg=PA474&lpg=PA474&dq=tls+architectural+photogrammetry&source=bl&ots=s9kWvCsROx&sig=ACfU3U1PIGgCLA2MRu0kJwLEoNSAvDi5ng&hl=ru&sa=X&ved=2ahUKEwiKoK2hh7PnAhXRk4sKHZ6XDsAQ6AEwEHoECAsQAQ#v=onepage&q=tls%20architectural%20photogrammetry&f=false)
+* [Automated architecture reconstruction from close-range photogrammetry](https://www.researchgate.net/publication/228540860_Automated_architecture_reconstruction_from_close-range_photogrammetry)
+* [Automated Multi-Sensor 3D Reconstruction for the Web](https://www.mdpi.com/2220-9964/8/5/221/htm)
+* [VIDEOGRAMMETRY VS PHOTOGRAMMETRY FOR HERITAGE 3D RECONSTRUCTION](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-2-W15/1157/2019/isprs-archives-XLII-2-W15-1157-2019.pdf)
+* [Introduction to Photogrammetry](http://www.mat.uc.pt/~gil/downloads/IntroPhoto.pdf)
+* [Reconstruction of 3D Models in Automotive Engineering
+Applications Using Close-Range Photogrammetry Approach](
+http://www.akademiabaru.com/doc/ARFMTSV61_N2_P220_232.pdf)
+* [Image-based modeling for object and human reconstruction](https://www.researchgate.net/publication/35195267_Image-based_modeling_for_object_and_human_reconstruction)
+* [PHOTOGRAMMETRIC 3D RECONSTRUCTION IN MATLAB: DEVELOPMENT OF A FREE TOOL](https://www.researchgate.net/publication/321218484_PHOTOGRAMMETRIC_3D_RECONSTRUCTION_IN_MATLAB_DEVELOPMENT_OF_A_FREE_TOOL)
+* [Photogrammetry tools comparison](https://sketchfab.com/ssh4/collections/photogrammetry-tools-comparison)
