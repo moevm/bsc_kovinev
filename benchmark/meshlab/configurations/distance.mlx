@@ -8,7 +8,7 @@
   <Param description="Sample Edges" value="true" type="RichBool" name="SampleEdge"/>
   <Param description="Sample FauxEdge" value="false" type="RichBool" name="SampleFauxEdge"/>
   <Param description="Sample Faces" value="true" type="RichBool" name="SampleFace"/>
-  <Param description="Number of samples" value="60000" type="RichInt" name="SampleNum"/>
-  <Param description="Max Distance" value="30.0" min="0" max="30.0" type="RichAbsPerc" name="MaxDist"/>
+  <Param description="Number of samples" value="3387" type="RichInt" name="SampleNum"/>
+  <Param description="Max Distance" value="100.0" min="0" max="100.0" type="RichAbsPerc" name="MaxDist"/>
  </filter>
 </FilterScript>

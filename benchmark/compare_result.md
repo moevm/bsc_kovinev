@@ -75,57 +75,57 @@ Compare with original by rude
 
 | Software	| Name	| Max	| Mean	| RMS	|
 |---|---|---|---|---|
-|3DF Zephyr	|Original	|29.883663	|0.255532	|0.380643	|
-|3DF Zephyr	|720x540	|3.214721	|0.721589	|0.91208	|
-|3DF Zephyr	|320x240	|28.219069	|1.843136	|2.431263	|
-|3DF Zephyr	|Medium Dark	|29.870842	|0.31501	|0.434793	|
-|3DF Zephyr	|Extra Dark	|2.780091	|0.837354	|1.009879	|
-|3DF Zephyr	|Medium Distance	|29.549974	|0.394112	|0.55938	|
-|3DF Zephyr	|Far Distance	|29.319715	|0.424346	|0.616201	|
-|3DF Zephyr	|Medium Snow	|2.642169	|0.709434	|0.868774	|
-|3DF Zephyr	|Extra Snow	|29.779495	|0.784323	|1.006076	|
-
-
-Meshroom
-
-| Software	| Name	| Max	| Mean	| RMS	|
-|---|---|---|---|---|
-|Pix4D	|Original	|29.392044	|0.618741	|0.728786	|
-|Pix4D	|720x540	|28.403566	|0.899285	|1.13757	|
-|Pix4D	|320x240	|29.881527	|1.240908	|1.710691	|
-|Pix4D	|Medium Dark	|29.500546	|0.472093	|0.723413	|
-|Pix4D	|Extra Dark    |29.784958	|0.856278	|1.41657	|
-|Pix4D	|Medium Distance	|29.612806	|0.585516	|0.880004	|
-|Pix4D	|Far Distance	|25.798145	|0.719032	|0.925432	|
-|Pix4D	|Medium Snow	|29.361553	|0.375846	|0.494956   |
-|Pix4D	|Extra Snow	|29.494078	|1.253168	|1.716749	|
+|3DF Zephyr	|Original	|5.041015	|0.255532	|0.380643	|
+|3DF Zephyr	|720x540	|3.654275	|0.721589	|0.91208	|
+|3DF Zephyr	|320x240	|6.893617	|1.843136	|2.431263	|
+|3DF Zephyr	|Medium Dark	|2.339342	|0.31501	|0.434793	|
+|3DF Zephyr	|Extra Dark	|4.850242	|0.837354	|1.009879	|
+|3DF Zephyr	|Medium Distance	|4.505886	|0.394112	|0.55938	|
+|3DF Zephyr	|Far Distance	|4.479064	|0.424346	|0.616201	|
+|3DF Zephyr	|Medium Snow	|3.932841	|0.709434	|0.868774	|
+|3DF Zephyr	|Extra Snow	|5.569102	|0.784323	|1.006076	|
 
 
 Pix4D
 
 | Software	| Name	| Max	| Mean	| RMS	|
 |---|---|---|---|---|
-|Meshroom	|Original	|29.85314	|0.374198	|0.571769	
-|Meshroom	|720x540	|29.532616	|1.203915	|1.734629	|
+|Pix4D	|Original	|2.335918	|0.618741	|0.728786	|
+|Pix4D	|720x540	|2.955821	|0.899285	|1.13757	|
+|Pix4D	|320x240	|3.90482	|1.240908	|1.710691	|
+|Pix4D	|Medium Dark	|1.569111	|0.472093	|0.723413	|
+|Pix4D	|Extra Dark    |6.64249	|0.856278	|1.41657	|
+|Pix4D	|Medium Distance	|2.207041	|0.585516	|0.880004	|
+|Pix4D	|Far Distance	|2.520549	|0.719032	|0.925432	|
+|Pix4D	|Medium Snow	|1.900998	|0.375846	|0.494956   |
+|Pix4D	|Extra Snow	|1.490142	|1.253168	|1.716749	|
+
+
+Meshroom
+
+| Software	| Name	| Max	| Mean	| RMS	|
+|---|---|---|---|---|
+|Meshroom	|Original	|3.942915	|0.374198	|0.571769	
+|Meshroom	|720x540	|4.849346	|1.203915	|1.734629	|
 |Meshroom	|320x240	|-	|-	|-	|
-|Meshroom	|Medium Dark	|29.858521	|0.635837	|0.977292	|
-|Meshroom	|Extra Dark	|29.503143	|0.905954	|1.224313	|
-|Meshroom	|Medium Distance	|29.50379	|0.461862	|0.594002	|
-|Meshroom	|Far Distance	|29.5536	|0.585682	|0.83157	|
-|Meshroom	|Medium Snow	|29.532618	|0.701103	|0.924217	|
-|Meshroom	|Extra Snow	|29.784925	|2.147317	|3.447384	|
+|Meshroom	|Medium Dark	|9.524522	|0.635837	|0.977292	|
+|Meshroom	|Extra Dark	|10.311735	|0.905954	|1.224313	|
+|Meshroom	|Medium Distance	|6.233581	|0.461862	|0.594002	|
+|Meshroom	|Far Distance	|14.122382	|0.585682	|0.83157	|
+|Meshroom	|Medium Snow	|24.258919	|0.701103	|0.924217	|
+|Meshroom	|Extra Snow	|14.349888	|2.147317	|3.447384	|
 
 
 Agisoft MetaShape
 
 | Software	| Name	| Max	| Mean	| RMS	|
 |---|---|---|---|---|
-|Agisoft MetaShape	|Original	|29.248983	|1.96132	|3.20861	|
+|Agisoft MetaShape	|Original	|4.571903	|1.96132	|3.20861	|
 |Agisoft MetaShape	|-  |-  |-  | -	|
 |Agisoft MetaShape	|-  |-  |-  | -	|
-|Agisoft MetaShape	|Medium Dark	|29.712843	|1.224461	|1.974796	|
+|Agisoft MetaShape	|Medium Dark	|3.949731	|1.224461	|1.974796	|
 |Agisoft MetaShape	|Extra Dark	|-  |-  |-  | -	|
-|Agisoft MetaShape	|Medium Distance	|29.380716	|1.438981	|2.351109	|
+|Agisoft MetaShape	|Medium Distance	|3.344286	|1.438981	|2.351109	|
 |Agisoft MetaShape	|Far Distance	|-  |-  |-  | -	|
-|Agisoft MetaShape	|Medium Snow	|29.572149	|0.458315	|0.73351	|
-|Agisoft MetaShape	|Extra Snow	|29.291449	|0.685344	|1.190965	|
+|Agisoft MetaShape	|Medium Snow	|4.814337	|0.458315	|0.73351	|
+|Agisoft MetaShape	|Extra Snow	|2.842195	|0.685344	|1.190965	|
